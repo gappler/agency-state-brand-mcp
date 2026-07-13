@@ -1,10 +1,9 @@
 ---
 title: Agency State — Brand Platform
-version: 1.3
+version: 1.5
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-05-31
-supersedes: agency-state-practice/archive/brand-book-v2.1-2026-05-28.md
+last_updated: 2026-06-25
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
 
@@ -19,6 +18,11 @@ This is the machine-readable brand intelligence for Agency State. Each section b
 Agency State enables human/AI marketing teams.
 
 Led by Greg Appler.
+
+**Lines:**
+
+- **Tagline (formal):** "Enabling human/AI marketing teams." — for the logo lockup, decks, and formal contexts. Carries the *human/AI team* concept.
+- **Positioning line (plain-language):** "Helping marketing teams put AI to work." — the honest, transparent lead/hero line. Use where you open with what the work actually is. Canonical alongside the tagline; they do different jobs.
 
 ---
 
@@ -39,7 +43,7 @@ These frameworks are built on a foundation of six competencies to ensure they're
 
 ## 3. Positioning
 
-Agency State enables human/AI teams that produce marketing work at a scale and quality a team couldn't reach on its own. The work is held to the team's standard, running on the team's context. The engagement builds an AI-fluent team that owns and runs the work going forward.
+Agency State enables human/AI teams that produce marketing work at a scale and quality a team couldn't reach on its own. The work is held to the team's standard, running on the team's context. The engagement builds an AI-fluent team that owns and runs the work going forward. The work is built primarily in Claude Code, a deliberate choice for its depth as an agent platform; the frameworks carry across models like Codex too.
 
 ---
 
@@ -137,6 +141,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - **Generic "AI strategy" as a deliverable** — too abstract. Name what is actually being built.
 - **"Capability transfer" / "teaches you to build" as promises** — overstates what an engagement delivers. The work hands over artifacts and documentation and shifts ownership over time; it doesn't transfer capability in a single handoff.
 - **Comparisons to other vendors or categories** — "Most AI courses…," "Unlike enterprise consulting…" Lead with what Agency State does, not what others don't.
+- **Mechanical-repetition framing** — "repeatable," "does the same thing every time," "the same way every time." Frames the AI as a deterministic script and undersells its judgment and adaptation. Describe what the AI actually does, including handling novel situations — not just running a fixed routine. (*Recurring work / workload* stays fine — "recurring" means happens regularly, not "done identically.")
 
 ---
 
@@ -149,7 +154,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 ## 9. What Agency State is not
 
 - **Not enterprise consulting.** The work fits a single marketing function with a clear owner — not multi-thousand-person transformation with dedicated AI teams and complex procurement.
-- **Not a Claude Code tutorial.** The work uses Claude Code, but the frameworks apply across models — Codex and others work too.
+- **Not a tutorial or course.** The work builds operating frameworks the team owns and runs, not lessons in a tool. Claude Code is the primary tool and a deliberate choice; the frameworks carry across models like Codex too.
 - **Not a productized course or cohort.** Engagements take the shape of the work they serve.
 - **Not a single-discipline specialty.** Greg is a generalist with the tools to execute across disciplines. SEO, paid-media, and analytics specialists exist for a reason; he isn't one of them.
 - **Not a vendor of AI tools or technology.** The frameworks and artifacts that get built belong to the client.
@@ -161,7 +166,9 @@ Agency State voice is one practitioner talking to another about real work. Plain
 *Human reference only — not served via MCP.*
 
 - Single AI-facing document; supersedes brand-book.md v2.1. No separate human-readable brand book (solo practice; the human who needs the brand already holds it).
-- Offers, pricing, format, and engagement-shape content live in `agency-state-practice/strategy/working-notes.md` — operational, changes faster than this platform should.
+- Offers, pricing, format, and engagement-shape content are operational — they change faster than this platform should and live outside this doc, not in it.
 - The staged-journey process steps (awareness → first wins → … → self-sufficiency) stay cut as internal-process detail. The team-ownership outcome — the engagement builds an AI-fluent team that owns and runs the work — lives in positioning as a differentiator. The *context + conversation* framing remains cut.
 - Substack content deliberately excluded — it is a separate project with its own voice and audience.
 - Visual identity stays in `brand-guidelines.md`.
+- Tagline vs. positioning line (2026-06-25): "Enabling human/AI marketing teams" stays the formal tagline (lockup/decks); "Helping marketing teams put AI to work" added as the plain-language positioning/hero line — chosen as the more honest, transparent lead. Both canonical, different jobs.
+- Mechanical-repetition framing added to never-say (2026-06-25): "repeatable / same way every time" undersells AI judgment and adaptation — it describes a script, not a collaborator. Surfaced from a primer landing-page copy edit.
