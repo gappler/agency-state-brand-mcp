@@ -1,62 +1,64 @@
 ---
-title: Agency State — Brand Platform
-version: 1.5
+title: Agency State Brand Platform
+version: 2.0
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-06-25
+last_updated: 2026-08-13
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
 
-# Agency State — Brand Platform
-
-This is the machine-readable brand intelligence for Agency State. Each section below is written to be served whole as a single MCP tool response — self-contained, rules and lists over narrative. Supersedes the Agency State brand book v2.1.
-
----
+# Agency State Brand Platform
 
 ## 1. Identity
 
-Agency State enables human/AI marketing teams.
+Agency State is AI Enablement for brand marketing teams. It builds the foundation for AI to carry the marketing work, and leaves the team owning and directing it.
 
 Led by Greg Appler.
 
+The name reads "agency" as the capacity to act, not agency as a marketing shop.
+
 **Lines:**
 
-- **Tagline (formal):** "Enabling human/AI marketing teams." — for the logo lockup, decks, and formal contexts. Carries the *human/AI team* concept.
-- **Positioning line (plain-language):** "Helping marketing teams put AI to work." — the honest, transparent lead/hero line. Use where you open with what the work actually is. Canonical alongside the tagline; they do different jobs.
+- **Tagline (formal).** "Enabling brand marketing teams." For the logo lockup, decks, and formal contexts.
+- **Positioning line (plain).** "Helping brand marketing teams put AI to work." The honest hero line, for opening with what the work actually is. Canonical with the tagline; they do different jobs.
 
 ---
 
 ## 2. What Agency State delivers
 
-**Operating frameworks** — the workflows, integrations, documentation, and processes the marketing team will run and own. Built with the team.
+**Operating frameworks.** The workflows, integrations, documentation, and processes the marketing team will run and own. Built with the team.
 
-These frameworks are built on a foundation of six competencies to ensure they're complete, fit the team's context, and can be evolved by the team:
+These frameworks rest on six competencies:
 
-- **Governance** — rules and review checkpoints that decide what AI-assisted work ships and who signs off.
-- **Knowledge bases** — reference material the model draws on, so its output reflects brand and organizational standards.
-- **Content engineering** — content production run as repeatable pipelines.
-- **Planning** — briefs, workflows, and review loops that let AI carry recurring work.
-- **Measurement** — defining what good looks like, then making quality and throughput visible.
-- **Change management** — making the work stick: the team uses what gets built — it holds past the first month.
+- **Governance.** Rules and review checkpoints that decide what AI-assisted work ships and who signs off.
+- **Knowledge bases.** Reference material the model draws on, so its output reflects brand and organizational standards.
+- **Content engineering.** Content production run as pipelines.
+- **Planning.** Briefs, workflows, and review loops that let AI carry recurring work.
+- **Measurement.** Defining what good looks like, then making quality and throughput visible.
+- **Change management.** Making the work stick, so it holds after handoff.
+
+For brand marketing teams, these competencies come together in a Brand OS (see Vocabulary), the artifact that keeps the brand present in the team's AI work.
 
 ---
 
 ## 3. Positioning
 
-Agency State enables human/AI teams that produce marketing work at a scale and quality a team couldn't reach on its own. The work is held to the team's standard, running on the team's context. The engagement builds an AI-fluent team that owns and runs the work going forward. The work is built primarily in Claude Code, a deliberate choice for its depth as an agent platform; the frameworks carry across models like Codex too.
+Agency State builds the foundation for AI to produce brand marketing work at a scale and quality a team could not reach on its own. AI carries the execution. People move from doing the work to directing it, and out of the loops that no longer need a human. The team sets the pace. The work holds to the team's standard and runs on the team's context, and the team owns what gets built. The work is built primarily in Claude Code, chosen for its depth as an agent platform; the frameworks carry across models like Codex too.
+
+For a brand marketing team, the team's standard is the brand itself. The Brand OS is what holds it, so the brand stays intact as AI scales the output.
 
 ---
 
 ## 4. Audience
 
-Agency State serves marketing teams at mid-to-large brands and organizations. The buyer is defined by ownership and authority over the work — not by company size, structure, or title.
+Agency State is AI Enablement for brand marketing teams at mid-to-large B2B and B2C organizations, and their agencies. The buyer owns the work and has the authority to direct it, whatever the company size, structure, or title.
 
 **Fit criteria:**
 
-1. **Clear owner.** Can authorize and direct the work without coordinating across the organization.
+1. **Clear owner.** Can authorize and direct the work within their function without coordinating across the organization.
 2. **Tech-forward.** The team has AI familiarity and a commitment to going deeper.
 
-**Stakeholders, not buyers.** VPs and Managing Directors from other teams, IT leaders, or CIOs can champion or refer, but they don't own the work.
+**Stakeholders, not buyers.** VPs and Managing Directors from other teams, IT leaders, or CIOs can champion or refer, but they do not own the work.
 
 ---
 
@@ -64,9 +66,9 @@ Agency State serves marketing teams at mid-to-large brands and organizations. Th
 
 Agency State voice is one practitioner talking to another about real work. Plain, specific, honest. The reader is a peer.
 
-**The voice rule:** Would this read like one practitioner talking to another about work they both take seriously? If yes, on-brand. If it reads like a vendor pitching or a consultant performing, off-brand.
+**The voice rule.** Would this read like one practitioner talking to another about work they both take seriously? If yes, on-brand. If it reads like a vendor pitching or a consultant performing, off-brand.
 
-**Point of view:** Default to first person — *I built*, *I help*, *I embed*. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.
+**Point of view.** Default to first person: I built, I help, I embed. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.
 
 **Principles, with examples:**
 
@@ -82,19 +84,23 @@ Agency State voice is one practitioner talking to another about real work. Plain
   - ✓ "I've found the artifacts matter more than the demo."
   - ✗ "It is widely understood that artifacts drive lasting value."
 
-- **Confident without performing.** State a position and move on. No emphasis-by-italics, no exclamation, no transformation language. If a sentence is doing performative work — sounding tidy, clever, or branded — cut it.
+- **Confident without performing.** State a position and move on. No emphasis-by-italics, no exclamation, no transformation language. If a sentence is doing performative work, sounding tidy, clever, or branded, cut it.
   - ✓ "The artifacts belong to the client."
   - ✗ "Our game-changing artifacts will revolutionize your workflow!"
   - ✓ "The work uses Claude Code; other models work too."
   - ✗ "We leverage best-in-class, cutting-edge AI to unlock your full potential."
 
-- **Honest over polished.** A line that's slightly rough but true beats one that's smooth but performing.
+- **Honest over polished.** A line that is slightly rough but true beats one that is smooth but performing.
   - ✓ "I'm a generalist with the tools to execute across disciplines, not a paid-media specialist."
   - ✗ "Our full-service team delivers best-in-class results across every channel."
 
-- **Cut what's already implied.** If a clause restates what the words before it already entail, delete it — keep the single strongest version. The same goes for intent language ("designed to," "built to") where the active verb says it plainly.
+- **Cut what's already implied.** If a clause restates what the words before it already entail, delete it and keep the single strongest version. Same for intent language ("designed to," "built to") where the active verb says it plainly.
   - ✓ "The frameworks and artifacts run across the team."
   - ✗ "The frameworks and artifacts belong to the client and run across the team, not locked to one person."
+
+- **Plain words over coined terms.** Prefer language the reader already understands. Skip invented labels (for example, "brand-core") when a plain phrase carries the meaning.
+
+- **No em dashes.** Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
 
 ---
 
@@ -108,67 +114,69 @@ Agency State voice is one practitioner talking to another about real work. Plain
 | *with*, *together* | *alongside* |
 | name the specific tool or the tool count | *tools* as a category for what the practice offers |
 | describe what the AI is doing in the work | *AI-first*, *AI-native*, *AI-powered* |
-| *human/AI team* | *scale yourself* |
 | *marketers*, *the team* (people) | *AI-fluent organization* (entity-level overclaim) |
 
 **Terms with fixed meaning:**
 
-- **AI Enablement** — building a marketing function's AI capacity on a foundation of six competencies: governance, knowledge bases, content engineering, planning, measurement, change management. Not separately purchasable services. Capitalize throughout — it names a discipline.
-- **AI-fluent marketer** — a marketer who works competently with AI tools as part of their practice. Describes capability and skill; applies to people, not organizations.
-- **Human/AI team** — a marketing team where people and AI agents work together on the same work. The state the practice helps clients reach. Lowercase in prose.
-- **Operating frameworks** — the artifacts and processes the team owns and runs, built on a foundation of six competencies to ensure completeness and quality. Never *operating layer*.
-- **Artifacts** — the reusable units that come out of an engagement: prompts, skills, agents, workflows, integrations, documentation. Team-portable.
-- **Workflow** — the process itself; what the client's team actually runs. Active vocabulary for what gets built.
-- **Pipeline** — the structured artifact that documents a workflow's phases, gates, criteria, and automation points. A pipeline documents a workflow; a workflow doesn't have to have a pipeline yet.
-- **Knowledge base** — the reference material built with the client to give the model the context it needs.
-- **Ship** — what the work does at the end of a build phase. The workflow ships, running on the client's context.
-- **Operational leverage** — the capacity the engagement produces. Used as a noun.
-- **Recurring work / workload** — the work the operating frameworks absorb so the team spends its time on higher-impact work. Neutral descriptor — names what the work is, not how the buyer feels about it.
+- **AI Enablement.** Building a marketing team's AI capacity on six competencies: governance, knowledge bases, content engineering, planning, measurement, change management. Not separately purchasable services. Capitalize throughout; it names a discipline.
+- **AI-fluent marketer.** A marketer who works competently with AI as part of their practice. Describes a person's capability, not an organization's.
+- **Operating frameworks.** The artifacts and processes the team owns and runs, built on the six competencies. Never *operating layer*.
+- **Artifacts.** The reusable units an engagement produces: prompts, skills, agents, workflows, integrations, documentation. Team-portable.
+- **Workflow.** The process itself, what the team actually runs. Active vocabulary for what gets built.
+- **Pipeline.** The structured artifact that documents a workflow's phases, gates, criteria, and automation points. A pipeline documents a workflow; a workflow does not have to have a pipeline yet.
+- **Knowledge base.** The reference material built with the client to give the model the context it needs.
+- **Brand OS.** The knowledge, standards, and guardrails that keep a team's brand intact as AI scales the output, so the work stays on point at any volume. The signature artifact for brand marketing teams.
+- **Ship.** What the work does at the end of a build phase. The workflow ships, running on the client's context.
+- **Operational leverage.** The capacity the engagement produces. Used as a noun.
+- **Recurring work / workload.** The work the operating frameworks absorb, so the team spends its time on higher-impact work. A neutral descriptor that names the work, not how the buyer feels about it.
 
 ---
 
 ## 7. Never say
 
-- **Fear framing** — "don't get left behind," "AI is coming for your job," "your competitors are already doing this."
-- **Overclaim** — "transform your career," "change your life," "10x your output," "save 20 hours a week," "AI transformation."
-- **SaaS clichés** — "unlock," "amplify," "empower," "disrupt," "synergy," "game-changer," "revolutionize," and *leverage* as a verb.
-- **Consultant-speak** — "our proprietary methodology," "best-in-class," "thought leadership."
-- **Fake proof** — testimonial-style claims or outcome numbers before the first engagements complete.
-- **Defensive copy answering unraised objections** — "no subscription, no vendor lock," "no IT required." If the buyer didn't ask, don't answer.
-- **Hedge words** — "we believe," "we think," "may," "might." *Exception:* in founder first-person, "I think" / "I've found" / "my pick" stake a claim rather than hedge, and are allowed. Corporate "we think" is still forbidden.
-- **"Scale yourself"** — treats the human as an asset to be multiplied.
-- **AI-first / AI-native / AI-powered** — buzzword overclaim. Describe specifically what the AI does in the work.
-- **Generic "AI strategy" as a deliverable** — too abstract. Name what is actually being built.
-- **"Capability transfer" / "teaches you to build" as promises** — overstates what an engagement delivers. The work hands over artifacts and documentation and shifts ownership over time; it doesn't transfer capability in a single handoff.
-- **Comparisons to other vendors or categories** — "Most AI courses…," "Unlike enterprise consulting…" Lead with what Agency State does, not what others don't.
-- **Mechanical-repetition framing** — "repeatable," "does the same thing every time," "the same way every time." Frames the AI as a deterministic script and undersells its judgment and adaptation. Describe what the AI actually does, including handling novel situations — not just running a fixed routine. (*Recurring work / workload* stays fine — "recurring" means happens regularly, not "done identically.")
+- **Fear framing.** "don't get left behind," "AI is coming for your job," "your competitors are already doing this." Being plain about what AI automates, as the buyer's leverage, is not fear framing. The ban is on threatening the reader, not on honesty about the work.
+- **Overclaim.** "transform your career," "change your life," "10x your output," "save 20 hours a week," "AI transformation."
+- **SaaS clichés.** "unlock," "amplify," "empower," "disrupt," "synergy," "game-changer," "revolutionize," and *leverage* as a verb.
+- **Consultant-speak.** "our proprietary methodology," "best-in-class," "thought leadership."
+- **Fake proof.** Testimonial-style claims or outcome numbers before the first engagements complete.
+- **Defensive copy answering unraised objections.** "no subscription, no vendor lock," "no IT required." If the buyer didn't ask, don't answer.
+- **Hedge words.** "we believe," "we think," "may," "might." Exception: in founder first person, "I think," "I've found," and "my pick" stake a claim rather than hedge, and are allowed. Corporate "we think" is still forbidden.
+- **"Scale yourself."** Treats the human as an asset to be multiplied.
+- **AI-first, AI-native, AI-powered.** Buzzword overclaim. Describe what the AI actually does in the work.
+- **Generic "AI strategy" as a deliverable.** Too abstract. Name what is being built.
+- **"Capability transfer" or "teaches you to build" as promises.** Overstates what an engagement delivers. The work hands over artifacts and documentation and shifts ownership over time; it does not transfer capability in a single handoff.
+- **Comparisons to other vendors or categories.** "Most AI courses...," "Unlike enterprise consulting..." Lead with what Agency State does, not what others do not.
+- **Mechanical-repetition framing.** "repeatable," "does the same thing every time," "the same way every time." Frames the AI as a deterministic script and undersells its judgment. Describe what the AI actually does, including how it handles novel situations. ("Recurring work" stays fine; "recurring" means happens regularly, not done identically.)
 
 ---
 
 ## 8. Proof
 
-**Founder: Greg Appler.** Two decades in agency and brand-side marketing, most recently a decade leading the team at the American Institute of Architects (2014–2023) — 100,000 members, $65M annual revenue. Built the marketing function from three designers to twelve professionals. Was business owner of a brand and marketing transformation: brand platform and architecture refresh (Pentagram on visual identity, adopted across 250 chapters); Salesforce Marketing Cloud, paid media ($1M+/year), and an enterprise analytics platform measuring across all programs. Led the definition and technical PM work on AIAU, the organization's first on-demand continuing education platform. Notable outcomes: consistent visual identity and brand standards across the chapter network; audience segmentation, personalized messaging, and marketing automation; expanded brand reach to unowned audiences; and record levels of membership and conference attendance. Earlier: Y&R, Designory, and Grafik, on brands including Lincoln, Nissan/Infiniti, and Bacardi Global Brands.
+**Founder: Greg Appler.** Two decades in agency and brand-side marketing, most recently a decade leading the team at the American Institute of Architects, a 100,000-member organization with $65M in annual revenue. Built the marketing function from three designers to twelve professionals. Owned a brand and marketing overhaul: a brand platform and architecture refresh (Pentagram on visual identity, adopted across the chapter network), Salesforce Marketing Cloud, paid media over $1M a year, and an enterprise analytics platform measuring across all programs. Led the definition and technical PM work on AIAU, the organization's first on-demand continuing education platform. Outcomes included consistent visual identity and brand standards across the chapter network; audience segmentation, personalized messaging, and marketing automation; expanded brand reach to unowned audiences; and record membership and conference attendance. Earlier: Y&R, Designory, and Grafik, on brands including Lincoln, Nissan/Infiniti, and Bacardi Global Brands.
 
 ---
 
 ## 9. What Agency State is not
 
-- **Not enterprise consulting.** The work fits a single marketing function with a clear owner — not multi-thousand-person transformation with dedicated AI teams and complex procurement.
-- **Not a tutorial or course.** The work builds operating frameworks the team owns and runs, not lessons in a tool. Claude Code is the primary tool and a deliberate choice; the frameworks carry across models like Codex too.
-- **Not a productized course or cohort.** Engagements take the shape of the work they serve.
-- **Not a single-discipline specialty.** Greg is a generalist with the tools to execute across disciplines. SEO, paid-media, and analytics specialists exist for a reason; he isn't one of them.
+*These are internal boundaries for scoping the work, not lines for public copy.*
+
+- **Not a marketing agency for hire.** Agency State builds a team's AI foundation and hands the work to the team. It does not run the brand's marketing in the team's place.
+- **Not enterprise consulting.** The work fits a single marketing function with a clear owner, not a multi-thousand-person transformation with dedicated AI teams and complex procurement.
+- **Not a tutorial or course.** The work builds operating frameworks the team owns and runs. Claude Code is the primary tool; the frameworks carry across models like Codex too.
+- **Not a single-discipline specialty.** Greg is a generalist with the tools to execute across disciplines. SEO, paid-media, and analytics specialists exist; he is not one of them.
 - **Not a vendor of AI tools or technology.** The frameworks and artifacts that get built belong to the client.
 
 ---
 
 ## Decisions & rationale
 
-*Human reference only — not served via MCP.*
+*Human reference only. Not served via MCP.*
 
-- Single AI-facing document; supersedes brand-book.md v2.1. No separate human-readable brand book (solo practice; the human who needs the brand already holds it).
-- Offers, pricing, format, and engagement-shape content are operational — they change faster than this platform should and live outside this doc, not in it.
-- The staged-journey process steps (awareness → first wins → … → self-sufficiency) stay cut as internal-process detail. The team-ownership outcome — the engagement builds an AI-fluent team that owns and runs the work — lives in positioning as a differentiator. The *context + conversation* framing remains cut.
-- Substack content deliberately excluded — it is a separate project with its own voice and audience.
-- Visual identity stays in `brand-guidelines.md`.
-- Tagline vs. positioning line (2026-06-25): "Enabling human/AI marketing teams" stays the formal tagline (lockup/decks); "Helping marketing teams put AI to work" added as the plain-language positioning/hero line — chosen as the more honest, transparent lead. Both canonical, different jobs.
-- Mechanical-repetition framing added to never-say (2026-06-25): "repeatable / same way every time" undersells AI judgment and adaptation — it describes a script, not a collaborator. Surfaced from a primer landing-page copy edit.
+- Single AI-facing document, supersedes brand-book.md v2.1. No separate human-readable brand book (solo practice; the human who needs the brand already holds it).
+- Offers, pricing, format, and engagement-shape content are operational. They change faster than this platform should and live outside this doc.
+- The staged-journey process steps (awareness through self-sufficiency) stay cut as internal-process detail. The team-ownership outcome lives in positioning as a differentiator.
+- Substack content deliberately excluded. It is a separate project with its own voice and audience.
+- Visual identity stays in brand-guidelines.md.
+- Mechanical-repetition framing added to never-say (2026-06-25): "repeatable / same way every time" undersells AI judgment. It describes a script, not a collaborator.
+- v2.0 rewrite (2026-08-13): audience sharpened to brand marketing teams at mid-to-large B2B and B2C organizations and their agencies. Identity restated as AI Enablement, not an agency for hire, with the name's "agency" read as capacity to act; "not a marketing agency for hire" added to §9, "not a productized course or cohort" cut as residual. Brand OS added as the signature artifact, woven through identity, delivery, and positioning. Dropped the "human/AI team" framing entirely (tagline, positioning, vocabulary) as a concession no longer wanted. Positioning leaned into autonomy: AI carries the execution, people move on and then out of the loops as the team sets the pace, framed as the owner's leverage; a §7 note keeps honest automation-talk from being read as fear framing. Formal tagline changed to "Enabling brand marketing teams," hero line to "Helping brand marketing teams put AI to work." Language rules applied across the doc (no em dashes, plain words over coined terms, redundancy cut), with the plain-words and no-em-dash rules written into §5.
+- Review panel (2026-08-13): ran a six-lens pre-publish panel. Applied its findings: Brand OS definition sharpened to differentiate it from a generic knowledge base; the §3 autonomy hedge cut and replaced with "the team sets the pace"; §2 change-management reworded so it does not contradict the autonomy stance; §8 proof corrected (dropped an inconsistent year range and an unverifiable chapter count, "transformation" changed to "overhaul"); §4 fit criterion scoped to the function; "alongside" fixed to "with"; and several economy and consistency fixes. Promoted to canonical 2026-08-13.
