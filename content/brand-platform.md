@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 2.11
+version: 2.12
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-08-25
@@ -26,7 +26,7 @@ The name reads "agency" as the capacity to act, not agency as a marketing shop.
 
 ## 2. What Agency State delivers
 
-**The Brand OS.** For a brand marketing team, Agency State delivers a Brand OS (see Vocabulary): the codified brand, plus the brand agents and operating frameworks built on it. The agents produce the team's work on brand and a review agent flags what is off before it ships; the frameworks are the workflows, integrations, documentation, and processes the team runs and owns. Built with the team.
+**The Brand OS.** For a brand marketing team, Agency State delivers a Brand OS (see Vocabulary): the codified brand, plus the brand agents and operating frameworks built on it. The agents produce the team's work, and a review agent flags what is off-brand before it ships; the frameworks are the workflows, integrations, documentation, and processes the team runs and owns. Built with the team.
 
 The Brand OS rests on six competencies:
 
@@ -41,11 +41,11 @@ The Brand OS rests on six competencies:
 
 ## 3. Positioning
 
-AI can produce a brand marketing team's work at a scale and quality the team could not reach on its own. What it does not do is keep that work on brand: it drifts, it makes claims it cannot back, and it has no memory of what the brand has already decided. Agency State builds the Brand OS that keeps a team's AI on brand, so the team can put AI on the work and the brand stays intact as the output scales.
+AI can produce a brand marketing team's work at a scale, and with a consistency, the team could not sustain on its own. What it does not do is keep that work on brand: it drifts, it makes claims it cannot back, and it has no memory of what the brand has already decided. Agency State builds the Brand OS, the codified brand plus the agents and frameworks that run on it, so the team can put AI on the work and the brand stays intact as the output scales.
 
-The entry point is a team's own brand agents: agents that produce work on brand, and a review agent that reads what the team ships and catches what is off before it goes out. The review agent is where the value shows first. The agents work only against a codified brand, which is the Brand OS's foundation (see Vocabulary).
+The entry point is a team's own brand agents: agents that produce the team's work, and a review agent that reads what the team ships and catches what is off-brand before it goes out. The review agent is where the value shows first. The agents work only against the codified brand, which is the Brand OS's foundation (see Vocabulary).
 
-AI carries the execution. People move from doing the work to directing it, and out of the loops that no longer need a human. The team sets the pace, owns what gets built, and runs it on its own context. The work is built primarily in Claude Code, chosen for its depth as an agent platform; the frameworks carry across models like Codex too.
+AI carries the execution. People move from doing the work to directing it, and out of the loops that no longer need a human. The team sets the pace, owns what gets built, and runs it on its own context. The work is built primarily in Claude Code, chosen for its depth as an agent platform; the frameworks carry across agents like Codex too.
 
 ---
 
@@ -68,7 +68,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 **Principles, with examples:**
 
 - **Concrete over abstract.** Name the thing, the number, the work.
-  - ✓ "Built a twelve-member marketing team."
+  - ✓ "Built a twelve-member multidisciplinary team."
   - ✗ "Drove transformative growth across the marketing organization."
   - ✓ "Paid media program over $1M a year."
   - ✗ "Significant paid media investment."
@@ -123,16 +123,16 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - **Pipeline.** The structured artifact that documents a workflow's phases, gates, criteria, and automation points. A pipeline documents a workflow; a workflow does not have to have a pipeline yet.
 - **Knowledge base.** The reference material built with the client to give the model the context it needs.
 - **Brand OS.** The operating system for a brand marketing team's AI work: the codified brand, plus the agents and frameworks built on it that produce the work, keep it on brand, and connect it to the team's tools, so the brand stays intact as AI scales the output. The codified brand is its foundation. The signature deliverable for brand marketing teams.
-- **Brand agents.** The agents that produce and review a team's work against the codified brand. The review agent, which reads what the team ships and flags what is off-brand before it goes out, is where the value shows first. Brand agents run on the Brand OS; an agent can hold a brand only with a codified brand under it.
+- **Brand agents.** The agents that produce and review a team's work against the codified brand. The review agent reads what the team ships and flags what is off-brand before it goes out. Brand agents run on the Brand OS; an agent can hold a brand only with a codified brand under it.
 - **Ship.** What the work does at the end of a build phase. The workflow ships, running on the client's context.
 - **Operational leverage.** The capacity the engagement produces. Used as a noun.
-- **Recurring work / workload.** The work the operating frameworks absorb, so the team spends its time on higher-impact work. A neutral descriptor that names the work, not how the buyer feels about it.
+- **Recurring work / workload.** The work the operating frameworks absorb, so the team spends its time on higher-impact work. A neutral descriptor for the work itself rather than a judgment on it.
 
 ---
 
 ## 7. Never say
 
-- **Fear framing.** "don't get left behind," "AI is coming for your job," "your competitors are already doing this." Being plain about what AI automates, as the buyer's leverage, is not fear framing. The ban is on threatening the reader, not on honesty about the work.
+- **Fear framing.** "don't get left behind," "AI is coming for your job," "your competitors are already doing this." Being plain about what AI automates, as the buyer's leverage, is not fear framing. The ban is on threatening the reader; honesty about the work is fine.
 - **Overclaim.** "transform your career," "change your life," "10x your output," "save 20 hours a week," "AI transformation."
 - **SaaS clichés.** "unlock," "amplify," "empower," "disrupt," "synergy," "game-changer," "revolutionize," and *leverage* as a verb.
 - **Consultant-speak.** "our proprietary methodology," "best-in-class," "thought leadership."
@@ -143,7 +143,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - **AI-first, AI-native, AI-powered.** Buzzword overclaim. Describe what the AI actually does in the work.
 - **Generic "AI strategy" as a deliverable.** Too abstract. Name what is being built.
 - **"Capability transfer" or "teaches you to build" as promises.** Overstates what an engagement delivers. The work hands over artifacts and documentation and shifts ownership over time; it does not transfer capability in a single handoff.
-- **Comparisons to other vendors or categories.** "Most AI courses...," "Unlike enterprise consulting..." Lead with what Agency State does, not what others do not.
+- **Comparisons to other vendors or categories.** "Most AI courses...," "Unlike enterprise consulting..." Lead with what Agency State does.
 - **Mechanical-repetition framing.** "repeatable," "does the same thing every time," "the same way every time." Frames the AI as a deterministic script and undersells its judgment. Describe what the AI actually does, including how it handles novel situations. ("Recurring work" stays fine; "recurring" means happens regularly, not done identically.)
 - **Announced honesty.** "honestly," "to be honest," "I'll be honest," "truthfully." The straight-talk voice proves candor by being direct, so announcing it signals the opposite and reads as a filler tic. Say the honest thing plainly. ("I'll tell you straight" or "I'll tell you whether it's a fit" carries the candor without the word.)
 
@@ -161,7 +161,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 
 - **Not a marketing agency for hire.** Agency State builds a team's AI foundation and hands the work to the team. It does not run the brand's marketing in the team's place.
 - **Not enterprise consulting.** The work fits a single marketing function with a clear owner, not a multi-thousand-person transformation with dedicated AI teams and complex procurement.
-- **Not a tutorial or course.** The work builds operating frameworks the team owns and runs. Claude Code is the primary tool; the frameworks carry across models like Codex too.
+- **Not a tutorial or course.** The work builds operating frameworks the team owns and runs. Claude Code is the primary tool; the frameworks carry across agents like Codex too.
 - **Not a single-discipline specialty.** Greg is a generalist with the tools to execute across disciplines. SEO, paid-media, and analytics specialists exist; he is not one of them.
 - **Not a vendor of AI tools or technology.** The frameworks and artifacts that get built belong to the client.
 
@@ -189,3 +189,4 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - §8 precision pass (2026-08-25, v2.5): confirmed "from the ground up" (the 3 who predated Greg were temp designers, not marketing staff, so there was no team to grow from; bio-facts memory corrected). Reflected the AIA structure (he worked at the national organization, which sits atop its chapter network) with "running national marketing" and "adopted across the national organization and its chapter network." Reframed the earlier roles from "agency and brand-side work for brands" to "brand-side and agency roles across," so leadership reads as spanning the career, not pinned to the agency accounts. Offer-page bio mirrored to match.
 - §8 correction (2026-08-25, v2.6): earlier roles changed to "ran digital marketing for" Lincoln, Nissan, Infiniti, and Bacardi. Greg ran digital marketing for all of them, so the earlier "roles across" undersold it; the AIA decade is the full brand marketing leadership, the earlier gigs were digital marketing for those brands. Offer-page bio and bio-facts memory updated to match.
 - §1 identity aligned to the brand-holds frame (2026-08-25, v2.8): the identity sentence changed from "builds the foundation for AI to carry the marketing work" to "builds the Brand OS that keeps a team's AI on brand as it scales," matching §2/§3 and reusing the "as it scales" phrasing from §3/§6. The plain positioning line changed from "Helping brand marketing teams put AI to work" to "Helping brand marketing teams put AI to work, on a brand that holds," echoing the offer-page hero. §1 was the last section still describing the pre-repositioning generic frame.
+- Draft-review-panel cleanup (2026-08-25, v2.12): ran the panel (client-brand profile, applicable lenses only) against the whole doc. Doc came back coherent, factually sound, on-voice. Applied: §3 quality overclaim softened ("at a scale and quality the team could not reach" to "at a scale, and with a consistency, the team could not sustain," inherited from v2.1, tripped the §7 overclaim ban); §3 given an inline Brand OS gloss so the get_positioning slice stands alone ("the codified brand plus the agents and frameworks that run on it"); §2 aligned to the drift premise (agents "produce the team's work," not "produce the team's work on brand," so it stops claiming the reliability the positioning says AI lacks); repetition trims (dropped a duplicate "keeps a team's AI on brand," trimmed the verbatim "is where the value shows first" from §6); "off-brand" hyphenation standardized; "X, not Y" tic brought back to budget (recast the two §7 instances and the §6 "Recurring work" one; kept §1/§4/§9 where the contrast is the point); "models like Codex" to "agents like Codex" (Codex is an agent, not a model); §5 concrete example aligned to "twelve-member multidisciplinary team." Held as decisions, not applied: the §3 autonomy line "out of the loops that no longer need a human" (owner kept it, a deliberate logged v2.0 choice) and adding AI-method proof to §8 (owner's call: none exists yet beyond the built artifacts, and the never-say already bars fake proof, so no note added).
