@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 2.6
+version: 2.7
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-08-25
@@ -11,7 +11,7 @@ purpose: AI-facing brand intelligence for Agency State. The canonical source for
 
 ## 1. Identity
 
-Agency State is AI Enablement for brand marketing teams. It builds the foundation for AI to carry the marketing work, and leaves the team owning and directing it.
+Agency State is AI Enablement for brand marketing teams. It builds the Brand OS that keeps a team's AI on brand as it carries the marketing work, and leaves the team owning and directing it.
 
 Led by Greg Appler.
 
@@ -20,7 +20,7 @@ The name reads "agency" as the capacity to act, not agency as a marketing shop.
 **Lines:**
 
 - **Tagline (formal).** "AI Enablement for Brand Marketing." For the logo lockup, decks, and formal contexts.
-- **Positioning line (plain).** "Helping brand marketing teams put AI to work." The honest hero line, for opening with what the work actually is. Canonical with the tagline; they do different jobs.
+- **Positioning line (plain).** "Helping brand marketing teams put AI to work, on a brand that holds." The honest hero line, for opening with what the work actually is. Canonical with the tagline; they do different jobs.
 
 ---
 
@@ -187,3 +187,4 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - §8 proof simplified (2026-08-25, v2.4): trimmed to the career-leadership frame (more than two decades leading brand marketing strategy, operations, and teams; the AIA decade; earlier agency and brand-side brands), dropping the granular specifics (member/revenue figures, Salesforce, AIAU, the analytics platform, the outcomes list) as resume depth the buyer does not need. This deliberately reverses the 2026-08-24 reconciliation note ("reconciling the platform down to the site would strip proof detail"): the owner's call is that the buyer cares about senior brand-marketing leadership, not the granular record. Kept concrete proof anchors (built a twelve-member multidisciplinary team from the ground up; a brand overhaul adopted nationally and across the chapter network, visual identity by Pentagram) so §8 stays proof, not assertion. Title changed Founder to Principal (settled preference). Note: "from the ground up" is the owner's phrasing and differs from the earlier "from three designers to twelve" framing in the run's bio-facts reference.
 - §8 precision pass (2026-08-25, v2.5): confirmed "from the ground up" (the 3 who predated Greg were temp designers, not marketing staff, so there was no team to grow from; bio-facts memory corrected). Reflected the AIA structure (he worked at the national organization, which sits atop its chapter network) with "running national marketing" and "adopted across the national organization and its chapter network." Reframed the earlier roles from "agency and brand-side work for brands" to "brand-side and agency roles across," so leadership reads as spanning the career, not pinned to the agency accounts. Offer-page bio mirrored to match.
 - §8 correction (2026-08-25, v2.6): earlier roles changed to "ran digital marketing for" Lincoln, Nissan, Infiniti, and Bacardi. Greg ran digital marketing for all of them, so the earlier "roles across" undersold it; the AIA decade is the full brand marketing leadership, the earlier gigs were digital marketing for those brands. Offer-page bio and bio-facts memory updated to match.
+- §1 identity aligned to the brand-holds frame (2026-08-25, v2.7): the identity sentence changed from "builds the foundation for AI to carry the marketing work" to "builds the Brand OS that keeps a team's AI on brand as it carries the marketing work," matching §2/§3. The plain positioning line changed from "Helping brand marketing teams put AI to work" to "Helping brand marketing teams put AI to work, on a brand that holds," echoing the offer-page hero. §1 was the last section still describing the pre-repositioning generic frame.
