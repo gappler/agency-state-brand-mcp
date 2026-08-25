@@ -2,15 +2,17 @@
 title: Agency State — Brand Guidelines
 date: 2026-06-25
 version: 3.2
-status: active
+status: STALE. Describes the retired legacy site; does NOT govern the current pages. Current visual system: design-system.css + design-system.md (interim canonical) in agency-state-practice/projects/website/. Full re-derivation pending. Do not use this document for visual decisions on the current site.
 ---
 
 # Agency State — Brand Guidelines
 
+> **STALE as of 2026-08-25: this document describes the retired legacy site and does not govern the current pages.** A staleness audit found nine of its twelve sections false against the live pages (typeface, color palette, spacing, container, nav, components, motion, and page type). The current visual system is `design-system.css` plus `design-system.md` in agency-state-practice/projects/website/. A full re-derivation is pending (cut this document to the surviving brand layer, delete the false implementation). Until then, do not build from this document; use the design system. The tagline below is also outdated.
+
 **URL:** agencystate.ai
 **Tagline:** Enabling human/AI marketing teams.
 
-This is the system of truth for Agency State's visual language. When you build a new page or component, build from this document.
+This was the system of truth for the legacy site's visual language. It no longer governs the current pages (see the notice above).
 
 Novel variations live in a page's own CSS. Don't elevate a pattern to this guide just because it appeared twice — repetition alone isn't evidence it belongs in the system. The default answer to "should we add this to the guide?" is **no**. When the temptation arises, push back: surface the question, name the tradeoff, and only update if explicit agreement is reached. Codifying a mistake or a one-off is worse than leaving it out.
 
