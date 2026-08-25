@@ -1,9 +1,9 @@
 ---
 title: Agency State Brand Platform
-version: 2.1
+version: 2.2
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-08-18
+last_updated: 2026-08-25
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
 
@@ -37,15 +37,17 @@ These frameworks rest on six competencies:
 - **Measurement.** Defining what good looks like, then making quality and throughput visible.
 - **Change management.** Making the work stick, so it holds after handoff.
 
-For brand marketing teams, these competencies come together as a Brand OS (see Vocabulary), the codified brand and the frameworks that run on it, keeping the brand present in the team's AI work.
+For brand marketing teams, these competencies come together as a Brand OS (see Vocabulary), the codified brand plus the agents and frameworks that run on it. A review agent flags off-brand work before it ships, keeping the brand present in the team's AI work.
 
 ---
 
 ## 3. Positioning
 
-Agency State builds the foundation for AI to produce brand marketing work at a scale and quality a team could not reach on its own. AI carries the execution. People move from doing the work to directing it, and out of the loops that no longer need a human. The team sets the pace. The work holds to the team's standard and runs on the team's context, and the team owns what gets built. The work is built primarily in Claude Code, chosen for its depth as an agent platform; the frameworks carry across models like Codex too.
+AI can produce a brand marketing team's work at a scale and quality the team could not reach on its own. What it does not do is keep that work on brand: it drifts, it makes claims it cannot back, and it has no memory of what the brand has already decided. Agency State builds the Brand OS that keeps a team's AI on brand, so the team can put AI on the work and the brand stays intact as the output scales.
 
-For a brand marketing team, the team's standard is the brand itself. The Brand OS is what holds it, so the brand stays intact as AI scales the output.
+The entry point is a team's own brand agents: agents that produce work on brand, and a review agent that reads what the team ships and catches what is off before it goes out. The review agent is where the value shows first. The agents work only against a codified brand, which is the Brand OS's foundation (see Vocabulary).
+
+AI carries the execution. People move from doing the work to directing it, and out of the loops that no longer need a human. The team sets the pace, owns what gets built, and runs it on its own context. The work is built primarily in Claude Code, chosen for its depth as an agent platform; the frameworks carry across models like Codex too.
 
 ---
 
@@ -122,7 +124,8 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - **Workflow.** The process itself, what the team actually runs. Active vocabulary for what gets built.
 - **Pipeline.** The structured artifact that documents a workflow's phases, gates, criteria, and automation points. A pipeline documents a workflow; a workflow does not have to have a pipeline yet.
 - **Knowledge base.** The reference material built with the client to give the model the context it needs.
-- **Brand OS.** The operating system for a brand marketing team's AI work: the codified brand, plus the frameworks built on it that produce the work, keep it on brand, and connect it to the team's tools, so the brand stays intact as AI scales the output. The codified brand is its foundation. It is where the six competencies come together for a brand marketing team. The signature deliverable for brand marketing teams.
+- **Brand OS.** The operating system for a brand marketing team's AI work: the codified brand, plus the agents and frameworks built on it that produce the work, keep it on brand, and connect it to the team's tools, so the brand stays intact as AI scales the output. The codified brand is its foundation. It is where the six competencies come together for a brand marketing team. The signature deliverable for brand marketing teams.
+- **Brand agents.** The agents that produce and review a team's work against the codified brand. The review agent, which reads what the team ships and flags what is off-brand before it goes out, is where the value shows first. Brand agents run on the Brand OS; an agent can hold a brand only with a codified brand under it.
 - **Ship.** What the work does at the end of a build phase. The workflow ships, running on the client's context.
 - **Operational leverage.** The capacity the engagement produces. Used as a noun.
 - **Recurring work / workload.** The work the operating frameworks absorb, so the team spends its time on higher-impact work. A neutral descriptor that names the work, not how the buyer feels about it.
@@ -181,3 +184,4 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - Brand OS definition broadened to the whole stack (2026-08-20): §6 Vocabulary and §2 reconciled so Brand OS names the operating system (the codified brand plus the frameworks that run on it), not the codification alone. The codified brand is its foundation. Resolves a split where §2 already read it as the ecosystem while the Vocabulary one-liner narrowed it; "artifact" changed to "deliverable." Cascaded from the website's See-it-work stack and the FAQ.
 - v2.0 rewrite (2026-08-13): audience sharpened to brand marketing teams at mid-to-large B2B and B2C organizations and their agencies. Identity restated as AI Enablement, not an agency for hire, with the name's "agency" read as capacity to act; "not a marketing agency for hire" added to §9, "not a productized course or cohort" cut as residual. Brand OS added as the signature artifact, woven through identity, delivery, and positioning. Dropped the "human/AI team" framing entirely (tagline, positioning, vocabulary) as a concession no longer wanted. Positioning leaned into autonomy: AI carries the execution, people move on and then out of the loops as the team sets the pace, framed as the owner's leverage; a §7 note keeps honest automation-talk from being read as fear framing. Formal tagline changed to "Enabling brand marketing teams," hero line to "Helping brand marketing teams put AI to work." Language rules applied across the doc (no em dashes, plain words over coined terms, redundancy cut), with the plain-words and no-em-dash rules written into §5.
 - Review panel (2026-08-13): ran a six-lens pre-publish panel. Applied its findings: Brand OS definition sharpened to differentiate it from a generic knowledge base; the §3 autonomy hedge cut and replaced with "the team sets the pace"; §2 change-management reworded so it does not contradict the autonomy stance; §8 proof corrected (dropped an inconsistent year range and an unverifiable chapter count, "transformation" changed to "overhaul"); §4 fit criterion scoped to the function; "alongside" fixed to "with"; and several economy and consistency fixes. Promoted to canonical 2026-08-13.
+- Positioning updated to the settled go-to-market frame (2026-08-25, v2.2): §3 rewritten so the codified positioning leads with the Brand OS and names the wedge (a team's own brand agents, led by the review agent) and the failure it answers (AI produces at scale but drifts, makes unbacked claims, and has no memory of prior brand decisions). §2 and §6 touched so agents appear in the delivery model and carry a fixed vocabulary term. Provenance: the readiness self-run's axis-1 finding (codified positioning trails the live direction), the platform staleness audit run this session (`platform-staleness-audit.md`, which tested the platform against the settled direction rather than rendered pages, a softer instrument than the guidelines audit, and found it sound and trailing), and this session's decision on the wedge. The wedge is already shipped on the live surfaces (hero "the Brand OS your agents run on"; the review agent in two of three offer stages; enforcement as see-it-work layer 04); this brings the source up to the shipped strategy, the same direction of travel as the visual re-derivation. §3 kept lean with a pointer to the Vocabulary definition rather than a partial breadth list. Assess/Build/Sustain kept out as engagement-shape. Failure framing held to one factual beat, not fear framing. The codified brand remains the Brand OS foundation; the review agent is the entry point and highest-value component, not the foundation. Open and boarded, not resolved here: see-it-work ships a named nine-layer Brand OS architecture that §6 does not enumerate; whether §6 should carry the nine layers (mapped onto the six competencies, with enforcement as governance-as-agent) is a separate §6 decision.
