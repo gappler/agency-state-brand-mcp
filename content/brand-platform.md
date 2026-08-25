@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 2.5
+version: 2.6
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-08-25
@@ -151,7 +151,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 
 ## 8. Proof
 
-**Principal: Greg Appler.** More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects, where he built a twelve-member multidisciplinary team from the ground up and ran a brand overhaul adopted across the national organization and its chapter network (visual identity by Pentagram). Earlier, brand-side and agency roles across Lincoln, Nissan, Infiniti, and Bacardi Global Brands.
+**Principal: Greg Appler.** More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects, where he built a twelve-member multidisciplinary team from the ground up and ran a brand overhaul adopted across the national organization and its chapter network (visual identity by Pentagram). Earlier, ran digital marketing for Lincoln, Nissan, Infiniti, and Bacardi Global Brands.
 
 ---
 
@@ -186,3 +186,4 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - §2 delivery section restructured (2026-08-25, v2.3): led with the Brand OS as the deliverable (it was buried under the generic "Operating frameworks" lead, the same burial fixed in §3), named the brand agents and review agent in the definition rather than appending them, and reframed the six competencies as what the Brand OS rests on rather than the Brand OS being a special case they "come together as." The six-competency list is unchanged; whether it becomes the nine-layer articulation from see-it-work, or a mapping, remains the open §2/§6 question boarded in reconciliation.md (item 2b).
 - §8 proof simplified (2026-08-25, v2.4): trimmed to the career-leadership frame (more than two decades leading brand marketing strategy, operations, and teams; the AIA decade; earlier agency and brand-side brands), dropping the granular specifics (member/revenue figures, Salesforce, AIAU, the analytics platform, the outcomes list) as resume depth the buyer does not need. This deliberately reverses the 2026-08-24 reconciliation note ("reconciling the platform down to the site would strip proof detail"): the owner's call is that the buyer cares about senior brand-marketing leadership, not the granular record. Kept concrete proof anchors (built a twelve-member multidisciplinary team from the ground up; a brand overhaul adopted nationally and across the chapter network, visual identity by Pentagram) so §8 stays proof, not assertion. Title changed Founder to Principal (settled preference). Note: "from the ground up" is the owner's phrasing and differs from the earlier "from three designers to twelve" framing in the run's bio-facts reference.
 - §8 precision pass (2026-08-25, v2.5): confirmed "from the ground up" (the 3 who predated Greg were temp designers, not marketing staff, so there was no team to grow from; bio-facts memory corrected). Reflected the AIA structure (he worked at the national organization, which sits atop its chapter network) with "running national marketing" and "adopted across the national organization and its chapter network." Reframed the earlier roles from "agency and brand-side work for brands" to "brand-side and agency roles across," so leadership reads as spanning the career, not pinned to the agency accounts. Offer-page bio mirrored to match.
+- §8 correction (2026-08-25, v2.6): earlier roles changed to "ran digital marketing for" Lincoln, Nissan, Infiniti, and Bacardi. Greg ran digital marketing for all of them, so the earlier "roles across" undersold it; the AIA decade is the full brand marketing leadership, the earlier gigs were digital marketing for those brands. Offer-page bio and bio-facts memory updated to match.
