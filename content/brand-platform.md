@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 2.8
+version: 2.9
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-08-25
@@ -151,7 +151,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 
 ## 8. Proof
 
-**Principal: Greg Appler.** More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects, where he built a twelve-member multidisciplinary team from the ground up and ran a brand overhaul adopted across the national organization and its chapter network (visual identity by Pentagram). Earlier, ran digital marketing for Lincoln, Nissan, Infiniti, and Bacardi Global Brands.
+**Principal: Greg Appler.** More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects, where he built a twelve-member multidisciplinary team from the ground up and ran a brand overhaul adopted at the national organization and across the chapter network (visual identity by Pentagram). Earlier, ran digital marketing for Lincoln, Nissan, Infiniti, and Bacardi Global Brands.
 
 ---
 
