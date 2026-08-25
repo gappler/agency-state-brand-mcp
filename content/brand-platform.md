@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 2.13
+version: 2.14
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-08-25
@@ -59,7 +59,11 @@ Agency State is AI Enablement for brand marketing teams at mid-to-large B2B and 
 
 ## 5. Voice
 
-Agency State voice is one practitioner talking to another about real work. Plain, specific, honest. The reader is a peer.
+Agency State has one voice, Greg's: one practitioner talking to another about real work. Plain, specific, honest. The reader is a peer. It runs in two registers, a client register for Agency State's client-facing and marketing work, and an owner register for Greg's personal writing (Substack, LinkedIn, curator drafts). Same voice, different setting. The shared core holds for both; each register then has its own scope.
+
+**The default is the client register.** When this platform is used to produce on-brand Agency State copy (site, proposals, outreach, social, deliverables), use the client register. The owner register is only for Greg's personal writing, and does not carry Agency State brand positioning.
+
+### Shared core (both registers)
 
 **The voice rule.** Would this read like one practitioner talking to another about work they both take seriously? If yes, on-brand. If it reads like a vendor pitching or a consultant performing, off-brand.
 
@@ -98,6 +102,21 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - **No em dashes.** Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
 
 - **"X, not Y" antithesis is off by default.** The comma-pivot reversal ("a repo you own, not a tool you rent," "encoded, not carried in memory") is a tic once it recurs. State the point positively instead. Allowed only where the contrast itself is the point and earns its place; if there's no clear cause, cut the "not Y" half.
+
+### Client register
+
+The shared core, with the §7 never-say list applied strictly. This is the register for all Agency State client-facing and marketing copy, and the default this platform serves.
+
+### Owner register
+
+For Greg's personal writing (Substack, LinkedIn, curator drafts). This is the owner speaking, not the Agency State brand; do not pull brand positioning or the client register into it.
+
+- **The reference is the writing, not a spec.** The owner voice is anchored to the published articles, primarily "Drowning in Substack" (and "The model is the easy part now" for roundups). Read them and match them. Do not work from a distilled trait-list: an earlier attempt to spec this voice biased drafts toward clipped, staccato lines, because a spec collapses a relaxed paragraph into a bullet and the bullet gets imitated.
+- **Relaxed and explanatory is the default (the no-machine-gun rule).** Sentences connect and build; they explain patiently, a competent peer walking you through something. Sharp short lines, vivid images, and aphorisms are earned exceptions, not the rhythm. When in doubt, write the fuller sentence.
+- **The substance rule.** A vivid line, aside, or honesty line earns its place only when a real fact or idea sits under it. If you cannot point to what it rests on, cut it.
+- **Owner never-say (adds to §7):** hedging filler ("in many ways," "at the end of the day"); CTA-bait closes (rhetorical "What about you?", "let me know in the comments"). Announced honesty is banned in both registers; state the limit and let the fact carry it.
+
+The drafting craft for owner writing (post kinds, structure, the moves, the checklist) lives in the writing-substack-posts skill, which anchors to the same articles and defers here for voice.
 
 ---
 
@@ -174,7 +193,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - Single AI-facing document, supersedes brand-book.md v2.1. No separate human-readable brand book (solo practice; the human who needs the brand already holds it).
 - Offers, pricing, format, and engagement-shape content are operational. They change faster than this platform should and live outside this doc.
 - The staged-journey process steps (awareness through self-sufficiency) stay cut as internal-process detail. The team-ownership outcome lives in positioning as a differentiator.
-- Substack content deliberately excluded. It is a separate project with its own voice and audience.
+- Substack / owner voice was deliberately excluded (separate voice and audience); SUPERSEDED 2026-08-25 (v2.14), folded in as the owner register in §5. See the v2.14 entry.
 - Visual identity stays in brand-guidelines.md.
 - Mechanical-repetition framing added to never-say (2026-06-25): "repeatable / same way every time" undersells AI judgment. It describes a script, not a collaborator.
 - Announced-honesty framing added to never-say (2026-08-18): "honestly / to be honest" is a filler tic that undercuts the straight-talk voice by announcing what directness should just show. Requested after a review panel found "I'll tell you honestly" recurring across pages.
@@ -191,3 +210,4 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - §1 identity aligned to the brand-holds frame (2026-08-25, v2.8): the identity sentence changed from "builds the foundation for AI to carry the marketing work" to "builds the Brand OS that keeps a team's AI on brand as it scales," matching §2/§3 and reusing the "as it scales" phrasing from §3/§6. The plain positioning line changed from "Helping brand marketing teams put AI to work" to "Helping brand marketing teams put AI to work, on a brand that holds," echoing the offer-page hero. §1 was the last section still describing the pre-repositioning generic frame.
 - Draft-review-panel cleanup (2026-08-25, v2.12): ran the panel (client-brand profile, applicable lenses only) against the whole doc. Doc came back coherent, factually sound, on-voice. Applied: §3 quality overclaim softened ("at a scale and quality the team could not reach" to "at a scale, and with a consistency, the team could not sustain," inherited from v2.1, tripped the §7 overclaim ban); §3 given an inline Brand OS gloss so the get_positioning slice stands alone ("the codified brand plus the agents and frameworks that run on it"); §2 aligned to the drift premise (agents "produce the team's work," not "produce the team's work on brand," so it stops claiming the reliability the positioning says AI lacks); repetition trims (dropped a duplicate "keeps a team's AI on brand," trimmed the verbatim "is where the value shows first" from §6); "off-brand" hyphenation standardized; "X, not Y" tic brought back to budget (recast the two §7 instances and the §6 "Recurring work" one; kept §1/§4/§9 where the contrast is the point); "models like Codex" to "agents like Codex" (Codex is an agent, not a model); §5 concrete example aligned to "twelve-member multidisciplinary team." Held as decisions, not applied: the §3 autonomy line "out of the loops that no longer need a human" (owner kept it, a deliberate logged v2.0 choice) and adding AI-method proof to §8 (owner's call: none exists yet beyond the built artifacts, and the never-say already bars fake proof, so no note added).
 - Panel craft follow-ups (2026-08-25, v2.13): split the dense §6 Brand OS sentence for readability (no meaning change); added the moat to §3 so the DIY objection is answered in served content ("Wiring the agents is the easy part. The work is the codification behind them: deciding what to encode, and what counts as on brand at the edges."), consistent with the practice's established position (sell the codification and judgment, not the plumbing). Skipped the §6 vocabulary-circularity nit; superseded by a larger owner request to make §6 a genuinely useful, complete glossary (a reader should know what each term means on sight), boarded as its own pass.
+- Voice consolidated to one voice, two registers (2026-08-25, v2.14): §5 rewritten. Agency State has one voice (Greg's) with a client register (default, for client-facing and marketing work, §7 never-say applies) and an owner register (Greg's personal writing: Substack, LinkedIn, curator drafts). The owner voice moved off the separate owners-voice.md into §5, but stays anchored to the published articles rather than re-distilled into a spec (a prior spec biased drafts to staccato, a lesson kept intact). Rationale (Greg): one source of truth for voice, practicing the Brand OS discipline the practice sells. Consequence: the brand MCP now serves the owner register too, so §5 defaults brand/client work to the client register. Follow-on: owners-voice.md retired to a pointer stub; the writing-substack-posts and voice skills point here for voice; both CLAUDE.md voice sections update to one-voice-two-registers (pending owner approval).
