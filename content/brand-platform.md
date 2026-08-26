@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 2.14
+version: 2.15
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-08-25
@@ -52,6 +52,8 @@ AI carries the execution. People move from doing the work to directing it, and o
 ## 4. Audience
 
 Agency State is AI Enablement for brand marketing teams at mid-to-large B2B and B2C organizations, and their agencies. The team is tech-forward, AI-familiar and committed to going deeper.
+
+The brand has to be decided. Agency State codifies a brand; it does not create one, so enough of it has to be developed already: a brand book, guidelines, and a body of work that defines the voice and the look. Positioning, audience, voice, vocabulary, and boundaries are written down, and the visual identity is established in the guidelines and the work. The brand can be in good shape or overdue for a refresh, and either is workable. A brand still being figured out is a different job, and the Assessment says so.
 
 **Stakeholders, not buyers.** VPs and Managing Directors from other teams, IT leaders, or CIOs can champion or refer, but the marketing team owns the work.
 
@@ -183,6 +185,7 @@ The drafting craft for owner writing (post kinds, structure, the moves, the chec
 - **Not a tutorial or course.** The work builds operating frameworks the team owns and runs. Claude Code is the primary tool; the frameworks carry across agents like Codex too.
 - **Not a single-discipline specialty.** Greg is a generalist with the tools to execute across disciplines. SEO, paid-media, and analytics specialists exist; he is not one of them.
 - **Not a vendor of AI tools or technology.** The frameworks and artifacts that get built belong to the client.
+- **Not a branding engagement.** Agency State codifies a brand already developed enough to codify. It does not develop it: no positioning work, no naming, no identity design. A brand still being figured out is a different job, and the Assessment says so rather than scoping around it.
 
 ---
 
@@ -212,3 +215,4 @@ The drafting craft for owner writing (post kinds, structure, the moves, the chec
 - Panel craft follow-ups (2026-08-25, v2.13): split the dense §6 Brand OS sentence for readability (no meaning change); added the moat to §3 so the DIY objection is answered in served content ("Wiring the agents is the easy part. The work is the codification behind them: deciding what to encode, and what counts as on brand at the edges."), consistent with the practice's established position (sell the codification and judgment, not the plumbing). Skipped the §6 vocabulary-circularity nit; superseded by a larger owner request to make §6 a genuinely useful, complete glossary (a reader should know what each term means on sight), boarded as its own pass.
 - Version scheme (recorded 2026-08-25): versions are semver-style minor increments (2.0, 2.1, 2.2, ... 2.14), each substantive change bumps the minor. Read 2.14 as later than 2.2, not as a decimal (2.14 is the fourteenth minor, not "two point fourteen"). Deliberate; noted here to resolve the ambiguity rather than renumber history.
 - Voice consolidated to one voice, two registers (2026-08-25, v2.14): §5 rewritten. Agency State has one voice (Greg's) with a client register (default, for client-facing and marketing work, §7 never-say applies) and an owner register (Greg's personal writing: Substack, LinkedIn, curator drafts). The owner voice moved off the separate owners-voice.md into §5, but stays anchored to the published articles rather than re-distilled into a spec (a prior spec biased drafts to staccato, a lesson kept intact). Rationale (Greg): one source of truth for voice, practicing the Brand OS discipline the practice sells. Consequence: the brand MCP now serves the owner register too, so §5 defaults brand/client work to the client register. Follow-on (done): owners-voice.md now defers to §5 and is renamed substack-drafting-guardrails.md (it holds drafting guardrails, not a voice definition); the writing-substack-posts and voice skills point to §5 for voice; both CLAUDE.md voice sections updated to one voice, two registers.
+- Fit criterion codified (2026-08-25): §4 gained a brand-readiness condition, §9 gained "not a branding engagement," and the offer page's Assessment block gained a line stating what ready means. The criterion was already published in the FAQ and the offer-page footer and was missing only from the platform, so this brings the source up to the site rather than inventing a rule. The specifics of what "developed" means come from the readiness instrument's axes. Staleness is explicitly not disqualifying: a trailing source scores partial and only a mostly unwritten brand scores weak, so "in good shape" and "overdue for a refresh" are both workable, as the FAQ already says.
