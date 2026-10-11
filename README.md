@@ -34,7 +34,7 @@ Each platform tool returns one section of `brand-platform.md`, sized to be serve
 The server live-reads the latest docs from the `agency-state-brand` repo's raw URL (`BRAND_RAW_BASE`), with a short in-memory cache (`CACHE_TTL`, default 60s). If a fetch fails, it falls back to the bundled snapshot in `content/`.
 
 - **Editing the brand:** edit + push `brand-platform.md` / `brand-guidelines.md` in `agency-state-brand`. This server serves the new content within the cache window — **no redeploy needed.**
-- **The bundled `content/` snapshot** is only a failure fallback. Refresh it occasionally (`cp ../agency-state-brand/*.md content/`) so the fallback isn't badly stale, but it isn't load-bearing day to day.
+- **The bundled `content/` snapshot** is only a failure fallback. Refresh it occasionally (`cp ../../10-active/agency-state-brand/*.md content/`) so the fallback isn't badly stale, but it isn't load-bearing day to day.
 - The brand repo is currently **public**, so no token is needed. If it's ever made private, set a read-only `GITHUB_TOKEN` env var (fine-grained PAT, Contents: read, scoped to that repo) and live-read keeps working.
 
 ## Config (env vars)

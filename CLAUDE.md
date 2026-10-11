@@ -10,7 +10,7 @@ This repo is the **brand MCP server** — it serves the canonical Agency State b
 
 To change brand content, edit and push `brand-platform.md` / `brand-guidelines.md` in **`agency-state-brand`**. The server **live-reads** the latest from that repo's raw URL (`BRAND_RAW_BASE`, ~60s cache) and serves it — no redeploy.
 
-- `content/` is a **failure-fallback snapshot only**, not the source. Don't hand-edit it. Refresh occasionally so it isn't badly stale: `cp ../agency-state-brand/*.md content/`.
+- `content/` is a **failure-fallback snapshot only**, not the source. Don't hand-edit it. Refresh occasionally so it isn't badly stale: `cp ../../10-active/agency-state-brand/*.md content/`.
 - Editing brand content here instead of in `agency-state-brand` changes nothing clients see and creates a fork — almost always a mistake.
 
 ## What lives here
