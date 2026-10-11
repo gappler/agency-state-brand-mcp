@@ -1,24 +1,38 @@
 ---
-title: Agency State — Brand Guidelines
-date: 2026-06-25
-version: 3.2
-status: STALE. Describes the retired legacy site; does NOT govern the current pages. Current visual system: design-system.css + design-system.md (interim canonical) in agency-state-practice/projects/website/. Full re-derivation pending. Do not use this document for visual decisions on the current site.
+title: Agency State Brand Guidelines
+version: 4.1
+date: 2026-08-28
+last_updated: 2026-10-11
+status: Current. The surface-independent brand layer only; visual implementation lives in the design system (see the closing section).
+version_note: >
+  v4.0 re-derives the document against the current draft pages and shared stylesheet (AGE-30).
+  The 2026-08-25 staleness audit found nine of v3.2's twelve sections were a specification of the
+  retired legacy site, false against the live pages. Those sections are removed, not rewritten.
+  What remains is the layer that does not change when the surface changes: the wordmark, the mark,
+  the typeface identity (the three faces and their roles), the accent grammar (orange marks the
+  payload word), the logo do-not list, and the motion principles. The typeface identity is kept on
+  the same footing as the fixed accent orange, an identity fact, not an implementation value.
+  Everything a machine can read out of the CSS (the type ramp and stacks, the palette hexes, the
+  spacing scale, the weight assignments, component specs) now lives in design-system.md plus
+  design-system.css, generated and enforced there, and is not restated here. Provenance of this
+  pass: the three typefaces, both accent hexes, and the wordmark and header-lockup descriptions
+  were verified against design-system.css and the live pages; the logo minimum sizes (280px full
+  logo, 200px wordmark, 32px mark) are carried forward from v3.2 unverified, kept as legibility
+  minimums for the mark, which the website does not change. Audit of record:
+  agency-state-practice/projects/brand-os/readiness-assessment/guidelines-staleness-audit.md.
 ---
 
-# Agency State — Brand Guidelines
-
-> **STALE as of 2026-08-25: this document describes the retired legacy site and does not govern the current pages.** A staleness audit found nine of its twelve sections false against the live pages (typeface, color palette, spacing, container, nav, components, motion, and page type). The current visual system is `design-system.css` plus `design-system.md` in agency-state-practice/projects/website/. A full re-derivation is pending (cut this document to the surviving brand layer, delete the false implementation). Until then, do not build from this document; use the design system. The tagline below is also outdated.
+# Agency State Brand Guidelines
 
 **URL:** agencystate.ai
-**Tagline:** Enabling human/AI marketing teams.
 
-This was the system of truth for the legacy site's visual language. It no longer governs the current pages (see the notice above).
+This document holds the **surface-independent brand layer**: the parts of the visual identity that stay true no matter how a given page is built. That is the wordmark, the mark, the typeface identity, the accent grammar, and the rules for how the logo may and may not be used.
 
-Novel variations live in a page's own CSS. Don't elevate a pattern to this guide just because it appeared twice — repetition alone isn't evidence it belongs in the system. The default answer to "should we add this to the guide?" is **no**. When the temptation arises, push back: surface the question, name the tradeoff, and only update if explicit agreement is reached. Codifying a mistake or a one-off is worse than leaving it out.
+It deliberately does **not** specify the type ramp, the font stacks, the weight assignments, the color palette, the spacing scale, layout, components, motion timings, breakpoints, or page types. Those are implementation, they change as the site is built, and they live in the design system where they are generated from the stylesheet and checked against it. Restating them here is what made the previous version drift into describing a site that no longer exists. See "Where the visual implementation lives."
 
-This guide was reduced to the brand foundation in v3.0 — logo, type, color, spacing, motion — plus the one page type documented here (the personal-statement homepage). The page-type catalog and conversion components from earlier versions were removed when the cohort/sales offers were retired. New page patterns get documented here *after* they're built, per the rule above — not prescribed in advance. Buildable page recipes (e.g., the lead-magnet page) live in their own skill and reference this foundation rather than duplicating it.
+## What earns a place in this guide
 
-For voice, copy, and positioning decisions, see `brand-platform.md`.
+The default answer to "should we add this to the guide?" is **no**. This document carries only what is stable across surfaces and cannot be read out of a file by a machine. Repetition alone is not evidence a pattern belongs here; a thing appearing on two pages is a candidate for the design system, not for this brand layer. When the temptation arises, surface the question, name the tradeoff, and add only on explicit agreement. Codifying a one-off, or hand-copying a value that a machine already enforces elsewhere, is worse than leaving it out.
 
 ---
 
@@ -26,115 +40,33 @@ For voice, copy, and positioning decisions, see `brand-platform.md`.
 
 ### Wordmark (primary mark)
 
-- `agencystate`, rendered from outlined SVG paths, set as a single string with no space between words
-- "agency" in bold (700) and "state" in regular (400) — the weight shift is the visual identity and must always be preserved
-- Always lowercase
-- Production asset: `assets/wordmark-black-on-white.svg` in the public `agency-state` repo
-- This is the default form of the brand mark — used in site navigation, footer, documents, decks, email signatures
+- `agencystate`, rendered from outlined SVG paths, set as a single string with no space between the two words.
+- "agency" in bold (700) and "state" in regular (400). The weight shift is the visual identity and must always be preserved. Because the production asset is outlined SVG, the weight relationship is locked in the paths and does not depend on any loaded font.
+- Always lowercase.
+- Rendered on the site as the inline SVG wordmark (`.wmlogo`), filled to the ink color via CSS. Never re-typeset the wordmark as live text.
+- This is the default form of the brand mark: site navigation, footer, documents, decks, email signatures.
 
-### Monogram icon
+### Monogram (the mark)
 
-- A **white star on a sharp (non-rounded) black square** — the star (representing *state*) positioned toward the right edge and slightly rotated, exiting the square. The visual statement: *state* (the second word) acts on its own *agency* (the first word's secondary meaning, the capacity to act). The buyer sees themselves in the mark — a marketing builder exiting the institutional frame to do their best work.
-- **No corner radius — the square is sharp.** Used as the favicon.
-- The black mark is the default and the site-wide favicon. A **white-star-on-orange** variant (square in `--accent` `#D4602A`) is in production on the lead-magnet page type — as that page's favicon and as its cover mark. Black remains the default everywhere else.
-- Production assets in the brand repo `assets/`: `agency-state-mark-black.svg` / `.png` (default), `agency-state-mark-orange.svg` / `.png` (lead-magnet page).
-- Use as favicon, social avatar, and app icon. Not combined with the wordmark into a lockup in production — with one carve-out: **lead-magnet / document covers** may pair the wordmark with the orange mark (see Logo usage › Acceptable configurations).
-- Replaces the *as* monogram (lowercase a/s on a rounded square), retired in v2.8 — the lowercase letterforms didn't read at small sizes.
+- A **white star on a sharp (non-rounded) square**, the square in near-black (`#111111`). The star (representing *state*) sits toward the right edge and is slightly rotated, exiting the square. The statement: *state* acts on its own *agency* (the capacity to act). The buyer sees themselves in the mark, a marketing builder stepping out of the institutional frame to do their best work.
+- **No corner radius. The square is sharp.**
+- The **black mark is the default** and the site-wide favicon. A **white-star-on-orange** variant (the square in the accent orange) is reserved for lead-magnet page types and branded social preview cards, where it works as an accent beside the wordmark. Black everywhere else.
+- Used as favicon, social avatar, and app icon.
+- Replaces the *as* monogram (lowercase a/s on a rounded square), retired in v2.8 because the lowercase letterforms did not read at small sizes.
 
 ### Full logo (reserved)
 
-The full lockup — monogram icon + wordmark + tagline — exists for brand-introduction contexts (press kits, slide title pages). It is not the default form. In everyday use, the wordmark stands alone.
+The full lockup (mark + wordmark + tagline) exists for brand-introduction contexts (press kits, slide title pages). It is not the default. In everyday use the wordmark stands alone.
 
-### Tagline
+### Tagline placement
 
-- "Enabling human/AI marketing teams." in sentence case, regular weight (400), default letter spacing
-- Sits below the wordmark, left-aligned with the wordmark start
-- Use when the tagline adds context the surrounding copy doesn't already provide (e.g., logo lockups, social bios, slide decks). Omit on pages where the headline and body copy already do the positioning work.
+The tagline string is an identity line, not a visual-identity spec. It lives in the brand platform (§1, served through `get_identity`), not here. This document governs only how a tagline is set when a lockup uses one:
 
----
+- Sentence case, regular weight (400), default letter spacing.
+- Sits below the wordmark, left-aligned with the wordmark start.
+- Used only in lockups and brand-introduction contexts (press kits, slide title pages, social bios), not on pages where the headline and body already do the positioning work.
 
-## Typography
-
-### Primary typeface: Inter
-
-- Source: Google Fonts — https://fonts.google.com/specimen/Inter
-- License: Open Font License (free for all uses)
-- Why: clean, highly legible sans-serif with excellent weight range, optimized for screens, professional without being decorative
-
-### Weights used
-
-| Weight | Value | Usage |
-|--------|-------|-------|
-| Light | 300 | Body copy, secondary text, captions |
-| Regular | 400 | Monogram "s", tagline, small UI labels |
-| Bold | 700 | Monogram "a", headings, inline emphasis |
-
-**Three weights.** Body copy runs light (300) for visual restraint; headings and emphasis are bold (700). The monogram preserves the original 700/400 contrast. Avoid medium and semibold — they muddy the step between light and bold.
-
-The production wordmark is outlined SVG (`assets/wordmark-black-on-white.svg` in the public `agency-state` repo), so its weight relationship is locked in paths and doesn't depend on loaded font weights.
-
-### Type scale — brand ranges
-
-Use these as guardrails when designing new text roles.
-
-| Element | Size | Weight | Case | Letter spacing |
-|---------|------|--------|------|----------------|
-| Wordmark | outlined SVG | n/a | lowercase | n/a |
-| Monogram letters | 24px (reference) | 700/400 | lowercase | default |
-| Tagline | 14px (reference) | 400 | sentence case | default |
-| H1 headings | 36–72px | 700 | sentence case | −0.03em |
-| H2 headings | 24–32px | 700 | sentence case | default |
-| H3 headings | 18–24px | 700 | sentence case | default |
-| Body text | 16–19px | 300 | sentence case | default |
-| Secondary body | 14–16px | 300 | sentence case | default |
-| Labels/captions | 12–14px | 600–700 | uppercase | 0.04–0.06em |
-
-All sizes are reference values. Scale proportionally for different applications.
-
-### Type scale — production implementations
-
-The roles currently in production (the homepage). Use these — don't pick new values.
-
-| Role | font-size | weight | line-height | letter-spacing | notes |
-|------|-----------|--------|-------------|----------------|-------|
-| Hero — tagline | `clamp(1.875rem, 4vw, 3rem)` | 300 | 1.1 | −0.025em | Homepage hero H1; max-width 24ch |
-| Prose | 1.125rem (18px) | 300 | 1.65 | default | Bio / lead / body copy; max-width 60ch |
-| Body default | 1.0625rem (17px) | 300 | 1.6 | default | Body inherits this |
-
-### Fallback stack
-
-```css
-font-family: 'Inter', system-ui, -apple-system, sans-serif;
-```
-
----
-
-## Color
-
-### Primary palette
-
-The brand uses a minimal, high-contrast palette. The identity lives in typography and weight contrast — color is a supporting layer.
-
-| Role | CSS variable | Light mode | Dark mode | Usage |
-|------|--------------|-----------|-----------|-------|
-| Primary text | `--text` | #1A1A1A | #f0f0f0 | Wordmark, icon background, headings, primary copy |
-| Secondary text | `--text-secondary` | #5C5C5C | #a0a0a0 | Tagline, secondary body, captions |
-| Page background | `--bg` | #FAF9F7 | #121212 | Page surfaces (cream, not pure white) |
-| Card background | `--card-bg` | #FFFFFF | #1C1C1C | Cards, elevated surfaces |
-| Card hover | `--card-hover` | #F5F4F2 | #242424 | Hover state on cards and interactive surfaces |
-| Border | `--border` | #E0DFDC | #2F2E2B | Dividers, subtle separators |
-| Accent (orange) | `--accent` | #D4602A | #E47339 | CTAs, links, highlighted metadata, indicator states |
-| Accent hover | `--accent-hover` | #B8521F | (TBD) | Hover state on orange CTAs and links |
-
-All eight variables must be declared in every page's `:root`. Don't hardcode hex values in component CSS; reference the variables.
-
-### Color rules
-
-- The logo is monochromatic. It works in any single dark color on a light background, or light color on a dark background.
-- No gradients, no shadows, no glow effects on the logo.
-- The monogram is a **white star on a sharp square** — black by default (site-wide favicon), orange (`--accent`) on the lead-magnet page type (favicon + cover mark).
-- The accent orange is used sparingly — CTAs, links, highlighted inline metadata, and gate or indicator states only. Never for body copy, plain headings, or large surfaces. The typography carries the identity, not the color.
-- **Emphasis exception.** Accent orange may be used for emphasis markup (`<em>`) within headlines and for complete standalone pull quotes. In these contexts orange marks the conceptual payload — the one word or phrase that carries the idea. The reader learns the grammar: orange = the point.
+For the current tagline string, see platform §1.
 
 ---
 
@@ -142,212 +74,88 @@ All eight variables must be declared in every page's `:root`. Don't hardcode hex
 
 ### Minimum clear space
 
-Maintain clear space around the full logo equal to the height of the monogram icon on all sides. No other elements should intrude into this zone.
+Maintain clear space around the full logo equal to the height of the mark on all sides. No other element intrudes into that zone.
 
 ### Minimum size
 
-- Full logo (icon + wordmark + tagline): minimum width 280px / 2.5 inches
-- Wordmark only (no icon, no tagline): minimum width 200px / 1.75 inches
-- Monogram icon only: minimum 32px / 0.3 inches
+- Full logo (mark + wordmark + tagline): minimum width 280px / 2.5 inches.
+- Wordmark only (no mark, no tagline): minimum width 200px / 1.75 inches.
+- Mark only: minimum 32px / 0.3 inches.
 
-These minimums govern standalone and print placement. Responsive site chrome is exempt — the fixed nav renders the wordmark at 180px (146px mobile) by design.
+These minimums govern standalone and print placement. Responsive site chrome is exempt: the site header sizes the wordmark and mark for the nav by design, at values set in the design system, not by this minimum.
 
 ### Acceptable configurations
 
-1. **Wordmark only (primary):** `agencystate` outlined — the default use across site navigation, footer, documents, decks, headers, email signatures. Rendered from the outlined SVG, not font-dependent.
-2. **Monogram only:** Square mark (white star on black) — favicon, social avatars, app icons, small-format contexts. Not combined into a lockup with the wordmark in production, except on lead-magnet / document covers (config 4).
-3. **Full logo (reserved):** Icon + wordmark + tagline — reserved for brand-introduction contexts where full positioning is useful (press kits, slide title pages). Not used in-product or in body documents.
-4. **Cover lockup (lead-magnet / document covers):** wordmark + orange monogram stacked on a document cover — the one production context where the wordmark and mark appear together outside the reserved full logo. The mark reads as an accent, not a fixed lockup; spacing is set by the cover layout.
+1. **Wordmark only (primary):** `agencystate` outlined. The default across site navigation, footer, documents, decks, headers, and email signatures. Rendered from the outlined SVG, not font-dependent.
+2. **Mark only:** the square mark (white star on the black square). Favicon, social avatars, app icons, and small-format contexts where a wordmark would not read.
+3. **Header lockup:** in site chrome, the mark sits immediately left of the wordmark. This is the one in-product context where mark and wordmark appear together. They are set side by side at the header's own scale; this is not the reserved full logo and carries no tagline.
+4. **Full logo (reserved):** mark + wordmark + tagline. Brand-introduction contexts only (press kits, slide title pages). Not used in-product or in body documents.
+5. **Cover lockup (lead-magnet / document covers):** wordmark plus the orange mark on a document cover. The mark reads as an accent; spacing is set by the cover layout.
+6. **Social preview card:** wordmark plus the orange mark and the social preview line, "On brand, at the speed of AI." Used for OG/social cards only. The mark reads as an accent, not a general-purpose logo lockup.
 
 ### Do not
 
-- Add space between "agency" and "state" in the wordmark
-- Use the wordmark in all caps or title case
-- Change the weight relationship (both words same weight)
-- Add color, gradient, or effects to the logo
-- Rotate, skew, or distort the logo
-- Place the logo on busy backgrounds without sufficient contrast
-- Rearrange the elements (tagline above wordmark, icon on right, etc.)
-- Use a different typeface for the wordmark
+- Add space between "agency" and "state" in the wordmark.
+- Set the wordmark in all caps or title case.
+- Change the weight relationship (both words the same weight).
+- Add color, gradient, or effects to the logo.
+- Rotate, skew, or distort the logo.
+- Place the logo on busy backgrounds without sufficient contrast.
+- Rearrange the elements (tagline above the wordmark, mark on the right of the wordmark, and so on).
+- Round the square mark's corners.
+- Use a different typeface, or live text, in place of the outlined wordmark.
 
 ---
 
-## Spacing scale
+## Typography: the faces
 
-Use only these rem values for margins, paddings, and gaps. No in-between values. If a layout seems to need a value not on this scale, the layout is wrong, not the scale.
+The full type implementation (the ramp, the exact font stacks with fallbacks, and the weight assigned to each face) lives in the design system and is generated from the stylesheet, so it is not restated here. This section carries only the part that is brand identity rather than implementation: **which faces the brand is set in, and what each one is for.** These are an identity fact on the same footing as the accent orange, and they hold whether the surface is a page, a deck, a PDF, or an email.
 
-```
-0.25  0.5  0.75  1  1.25  1.5  1.75  2  2.5  3  4  5  6.5  7.5  8.5
-```
+- **Three faces, three jobs.**
+  - **Display: Schibsted Grotesk.** Headings, layer and domain names, the hero thesis.
+  - **Body: Source Sans 3.** Running copy, leads, descriptions, captions.
+  - **Mono: IBM Plex Mono.** Labels, nav, kickers, chips, and every specimen block.
+  - All three are Google Fonts, Open Font License.
+- **Hierarchy comes from face, weight, color, and space, not from size inflation.** Only the hero is allowed to be big. Separating the three jobs is what makes that restraint possible. Never use weight alone to make a hierarchy step that face, color, or space should be making.
+- **Mono is not decoration.** It marks machine artifacts, and it is what makes a specimen read as evidence rather than as a quotation. Do not set narrative prose in mono, and do not set a specimen in the body face.
+- The three faces retire Inter, the legacy primary named in v3.2. The wordmark is unaffected: it is outlined SVG, so its weight relationship is locked in the paths and does not depend on any loaded font.
 
-Canonical uses (current pages):
-
-| Value | Used for |
-|-------|----------|
-| 0.25–0.5rem | Tight grouping (element-level margins, small gaps) |
-| 1rem | Default text-block rhythm, small gaps |
-| 1.25rem | Mobile container horizontal padding; stacked-item gaps |
-| 1.5rem | General gaps (footer rows, content blocks) |
-| 1.75rem | Headline → body gap, block rhythm |
-| 2rem | Desktop container horizontal padding |
-| 2.5rem | Footer block padding |
-| 8.5rem | Hero top padding (homepage) |
+The type ramp, the font stacks, and the weight-per-face assignments are implementation. They live in `design-system.css` and its generated Reference in `design-system.md`. Use the tokens there; do not restate or re-pick those values.
 
 ---
 
-## Layout
+## Color: accent grammar
 
-### Container
+The full palette (every token and its hex) lives in the design system and is not restated here. This section carries only the part that is brand grammar rather than implementation: **how the accent is allowed to behave.**
 
-- `max-width: 1200px`
-- Horizontal padding: `2rem` desktop, `1.25rem` mobile (≤ 600px)
-- `margin: 0 auto` (centered)
-
-All main content sits inside a `.container` wrapper.
-
-### Section rhythm
-
-The homepage uses **whitespace-only separation** — sections sit beside one another with generous padding and no visible rules. No `border-top` on sections or the footer; whitespace alone separates them. The hero uses generous top padding (`8.5rem 0 0`).
-
-### Fixed nav offset
-
-The nav is fixed at the top (height 64px desktop, 56px mobile). Hero padding-top accounts for the nav — don't rely on margin-top workarounds.
+- **Accent orange** is `--accent` `#D4602A`, hover `--accent-hover` `#B8521F`. (These two are the brand's fixed accent; the rest of the palette is in the design system.)
+- The identity lives in **typography and weight contrast, not color.** The accent is a supporting layer, used sparingly: action (CTAs, inline links) and state (a live or active indicator) only. Never for body copy, plain headings, or large surfaces.
+- **The payload rule.** Accent orange may mark the single conceptual payload: the one word or phrase in a headline that carries the idea (set as `<em>` inside the headline), or a complete standalone pull quote. The reader learns the grammar: orange means "this is the point." One payload word, not scattered emphasis.
+- The logo is monochromatic. It works in any single dark color on a light ground, or light on dark. No gradients, no shadows, no glow on the logo.
 
 ---
 
-## Components
+## Motion principles
 
-Core reusable patterns. If you're building something that matches one of these, use the existing class structure — don't invent a parallel implementation.
+The motion **spec** (easing, durations, the load reveal) lives in the design system and is generated from the stylesheet. What belongs here is the principle, which does not change with the implementation:
 
-### Inline prose link (`.offer-prose a`)
-
-An accent-colored link set inside body prose — used for inline calls to action in running text (e.g., the homepage's "schedule a call" / "LinkedIn" links).
-
-**Specs:**
-
-- `.offer-prose` — body register (1.125rem, weight 300, line-height 1.65, max-width 60ch).
-- `.offer-prose a` — color-only signaling: `var(--accent)` default, no underline or border, `transition: color 0.2s ease`, hover shifts to `var(--accent-hover)`, visited matches default. Focus state uses the browser default outline ring — do not suppress with `outline: none`.
-- The link reads as continuous prose. No button, arrow, or eyebrow furniture.
-
-### Reveal-on-scroll (`.reveal`, `.d1`–`.d4`)
-
-Content reveals with opacity + translateY as it scrolls into view.
-
-**Pattern:** Add `.reveal` to any block. Add `.d1`/`.d2`/`.d3`/`.d4` to stagger reveal delays within a group.
-
-**Hero exception:** hero `.reveal` elements are forced visible on `DOMContentLoaded` (no scroll needed).
-
-**Script dependency:** pages require the IntersectionObserver script at the end of the body (see live pages).
-
-### Nav
-
-Fixed top, backdrop-blur, border-bottom transitions to visible when scrolled past 16px.
-
-**Spec:**
-- `height: 64px` (desktop), `56px` (mobile ≤ 600px)
-- `background: rgba(250, 249, 247, 0.9)` with `backdrop-filter: blur(16px)`
-- Wordmark left (`width: 180px` desktop, `146px` mobile), no CTA
-
-**Script dependency:** scroll listener toggles `.scrolled` class at scrollY > 16px.
-
-### Footer
-
-**Structure:** brand-definition prose line, then wordmark left (130px) + copyright right. No top border. Flex, space-between, wraps on mobile.
-
----
-
-## Motion
-
-All animations use Inter's default font metrics. Any motion is short, cubic-bezier-eased, and never loops.
-
-### Reveal
-
-- Initial: `opacity: 0; transform: translateY(14px)`
-- Visible: `opacity: 1; transform: translateY(0)`
-- Transition: `0.55s cubic-bezier(0.22, 1, 0.36, 1)`
-
-Stagger delays (applied via `.d1`–`.d4`):
-
-| Class | Delay |
-|-------|-------|
-| `.d1` | 0.05s |
-| `.d2` | 0.15s |
-| `.d3` | 0.25s |
-| `.d4` | 0.35s |
-
-**IntersectionObserver config:** `threshold: 0.12`, `rootMargin: '0px 0px -80px 0px'`.
-
-### Hover
-
-- Color (inline-prose links): `0.2s ease`, color shifts from `var(--accent)` to `var(--accent-hover)`. No underline at any state. Focus uses the browser default outline ring (do not suppress).
-
-### Nav scroll state
-
-- Border transition: `border-color 0.3s ease`
-- Threshold: `scrollY > 16px`
-
-### Never use
-
-- Loops, pulses, bounces, or continuous motion
-- Shadows on elevation change
-- Parallax
-- Motion timings faster than 0.2s or slower than 0.7s
-
----
-
-## Responsive system
-
-### Breakpoints used
-
-| Width | Triggers |
-|-------|----------|
-| ≤ 600px | Mobile / single column; container and hero padding reduce, nav shrinks |
-
-### Mobile adjustments (≤ 600px)
-
-| | Desktop | Mobile |
-|-|---------|--------|
-| Container horizontal padding | 2rem | 1.25rem |
-| Hero top padding | 8.5rem | 6rem |
-| Nav height | 64px | 56px |
-| Nav wordmark width | 180px | 146px |
-
----
-
-## Page type
-
-Two page types are in use. The umbrella / personal-statement homepage is documented below. The **lead-magnet / conversion page** (two-column sticky-panel capture page, e.g. `agencystate.ai/claude-code-for-marketing/`) is a buildable recipe — its layout, CTA button, and capture/delivery wiring live in the **leadgen-page skill**, not here, since those are build-time concerns rather than brand foundation. Both page types share the foundation above (logo, type, color, spacing, motion). New page types get documented (or skill-ified) after they're built, not before.
-
-### Umbrella / personal statement (e.g., `agencystate.ai/`)
-
-**Tone:** personal, not marketing. The page is a statement of what the brand is, not a sales pitch. It flows as continuous prose; section transitions are handled by whitespace, not visible rules.
-
-**Allowed:**
-- Hero — tagline variant (light 300, smaller scale, max-width 24ch)
-- Lead / prose paragraphs (1.125rem, weight 300, line-height 1.65)
-- Inline accent link in prose (`.offer-prose a`)
-- Reveal-on-scroll for soft entry; hero `.reveal` elements forced visible on `DOMContentLoaded`
-- Whitespace-only section separation — sections sit beside one another with generous padding; no visible rules anywhere on the page
-
-**Not allowed:**
-- Marketing-style animation or bold "statement" heroes — keep the page quiet throughout
-- Visible `border-top` on `<section>` elements or the footer — whitespace alone separates sections
-- Standalone CTA buttons or arrow CTAs — the inline prose link does the navigation work
-
-**Meta:** full OG/Twitter meta, canonical URL.
+- Any motion is short and eased, and it never loops.
+- **Never use:** loops, pulses, bounces, or any continuous motion; shadows that appear on an elevation change; parallax; or timings so fast or so slow that the motion calls attention to itself rather than easing the eye.
+- `prefers-reduced-motion` is always respected.
 
 ---
 
 ## Voice, tone, and copy
 
-See `brand-platform.md`. It's the single source of truth for voice, positioning, brand-name spelling, and what-to-say / what-not-to-say. This doc covers visual identity only.
+See `brand-platform.md` (served live through the brand MCP, `get_brand_voice` / `get_full_platform`). It is the single source of truth for voice, positioning, brand-name spelling, and what to say and not say. This document covers the visual brand layer only.
 
 ---
 
-## Pending updates
+## Where the visual implementation lives
 
-These items need attention but aren't blocking current work. Resolve when the relevant work happens, not before.
+Everything this document used to specify about the built surface (the type ramp and font stacks, the weight-per-face assignments, the full color palette, the spacing scale, container and layout, the nav and footer, components, the motion spec, breakpoints, and page types) now lives in the **design system**, where it is generated from the stylesheet and enforced against it:
 
-- **Hero `display: flex`.** A prior `.hero` rule had `display: flex; align-items: center` which caused an indent issue; both properties were removed. If it's ever added back to a page, verify it doesn't reintroduce the indent before committing.
+- **`design-system.css`** is the single shared stylesheet every page links. It is the source of the token values.
+- **`design-system.md`** carries the color roles, the patterns, the systemic-versus-page-specific calls, and the open decisions, plus a generated Reference block emitted from the CSS by `audit.py --emit-reference` and checked by `audit.py --check-reference` (both fail if the doc and the CSS disagree).
 
-- **New page patterns.** The lead-magnet page type shipped (2026-06-25); per the philosophy above, its build recipe lives in the leadgen-page skill rather than this guide. Promote a pattern up to this foundation only if a second, non-lead-gen page adopts it — repetition inside one page type isn't evidence it belongs here.
+The design system is the canonical source for every value above. An agent asking for the type ramp, a palette hex, or a spacing value reads it there, never a hand-kept paraphrase and never this document.
