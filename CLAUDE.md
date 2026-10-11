@@ -1,7 +1,7 @@
 ---
 title: Claude Code guidance for agency-state-brand-mcp
 description: Working instructions for the Agency State brand MCP server repo
-last_updated: 2026-06-23
+last_updated: 2026-10-11
 ---
 
 This repo is the **brand MCP server** — it serves the canonical Agency State brand (platform + guidelines) to clients (Claude Code, n8n, any MCP client). It is an *actor*: the **source of truth is `agency-state-brand`**, not this repo.
@@ -22,5 +22,6 @@ To change brand content, edit and push `brand-platform.md` / `brand-guidelines.m
 
 ## Conventions
 
-- Lowercase-hyphen filenames; date-stamp docs (no version numbers — git is the history).
+- Lowercase-hyphen filenames. Preserve existing version metadata when a file has
+  it; use focused commits so git remains the audit trail.
 - Don't break the serving path — if you change `server.py`, verify the MCP still returns brand content before committing.
