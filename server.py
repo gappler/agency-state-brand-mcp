@@ -126,9 +126,9 @@ def get_identity() -> str:
 
 @mcp.tool()
 def get_competencies() -> str:
-    """The substance of what Agency State delivers: the six AI Enablement competencies.
+    """What Agency State does: the Brand OS by its four functions, where the work starts, and how the team owns it.
 
-    Use when describing what the practice does or what an engagement produces.
+    Use when describing what the practice does or what building a Brand OS involves.
     """
     return _platform_section("2. What Agency State delivers")
 
@@ -153,9 +153,9 @@ def get_audience() -> str:
 
 @mcp.tool()
 def get_brand_voice() -> str:
-    """The Agency State voice: the voice rule, point of view, and principles with sounds-like / not-like pairs.
+    """The Agency State voice: the shared core (voice rule, point of view, principles with sounds-like / not-like pairs), the client register with its reference passages, and the owner register.
 
-    Read this before drafting any Agency State copy — it defines how the brand sounds.
+    Read this before drafting any Agency State copy — it defines how the brand sounds. Agency State work uses the client register.
     """
     return _platform_section("5. Voice")
 

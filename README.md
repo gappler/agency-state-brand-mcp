@@ -18,10 +18,10 @@ Each platform tool returns one section of `brand-platform.md`, sized to be serve
 | Tool | Returns |
 |---|---|
 | `get_identity` | §1 Identity |
-| `get_competencies` | §2 What Agency State delivers (the six AI Enablement competencies) |
+| `get_competencies` | §2 What Agency State delivers (the Brand OS by its four functions, where the work starts) |
 | `get_positioning` | §3 Positioning |
 | `get_audience` | §4 Audience + fit criteria |
-| `get_brand_voice` | §5 Voice (voice rule, POV, principles with ✓/✗ pairs) |
+| `get_brand_voice` | §5 Voice (shared core with ✓/✗ pairs, client register and reference passages, owner register) |
 | `get_vocabulary` | §6 Vocabulary (use/avoid + terms with fixed meaning) |
 | `get_never_say` | §7 Never say (banned phrasings) |
 | `get_proof` | §8 Proof (the founder/AIA paragraph) |
