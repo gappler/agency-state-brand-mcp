@@ -126,7 +126,7 @@ def get_identity() -> str:
 
 @mcp.tool()
 def get_competencies() -> str:
-    """What Agency State does: the Brand OS by its four functions, where the work starts, and how the team owns it.
+    """What Agency State does: the Brand OS in its five parts (Source, Production, Control, Feedback, Operators), where the work starts, and how the team owns it.
 
     Use when describing what the practice does or what building a Brand OS involves.
     """
