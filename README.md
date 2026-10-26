@@ -27,7 +27,7 @@ Each platform tool returns one section of `brand-platform.md`, sized to be serve
 | `get_proof` | §8 Proof (the founder/AIA paragraph) |
 | `get_boundaries` | §9 What Agency State is not |
 | `get_full_platform` | §§1–9 whole, excluding the human-only Decisions & rationale section |
-| `get_visual_identity` | the full `brand-guidelines.md` |
+| `get_visual_identity` | brand-guidelines.md (logo and marks, color, typography, layout, components, motion, assets; frontmatter stripped) |
 
 ## Content source: live-read + bundled fallback
 

@@ -207,11 +207,11 @@ def get_full_platform() -> str:
 
 @mcp.tool()
 def get_visual_identity() -> str:
-    """The full Agency State brand guidelines: logo, typography, color, spacing, components, page types.
+    """The Agency State visual identity: logo and marks, color, typography, layout, components, motion, and assets.
 
-    Use when building or styling a page, component, or visual artifact that must match the brand.
+    Use when building or styling a page, component, or visual artifact that must match the brand. Exact implementation values live in the site's stylesheet, not here.
     """
-    return _content(GUIDELINES_FILE)
+    return _strip_frontmatter(_content(GUIDELINES_FILE))
 
 
 if __name__ == "__main__":

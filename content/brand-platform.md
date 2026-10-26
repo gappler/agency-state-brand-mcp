@@ -1,9 +1,9 @@
 ---
 title: Agency State Brand Platform
-version: 2.21
+version: 2.22
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-10-11
+last_updated: 2026-10-25
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
 
@@ -62,7 +62,7 @@ The brand has to be decided. Agency State codifies a brand; it does not create o
 
 ## 5. Voice
 
-Agency State has one voice, Greg's: one practitioner talking to another about real work. Plain, specific, honest. The reader is a peer. It runs in two registers, a client register for Agency State's client-facing and marketing work, and an owner register for Greg's personal writing (Substack, LinkedIn, curator drafts). Same voice, different setting. The shared core holds for both; each register then has its own scope.
+Agency State's brand voice is one practitioner talking to another about real work. Plain, specific, honest. The reader is a peer. It runs in two registers, a client register for Agency State's client-facing and marketing work, and an owner register for Greg's personal writing (Substack, LinkedIn, curator drafts). Same voice, different setting. The shared core holds for both; each register then has its own scope.
 
 **The default is the client register.** When this platform is used to produce on-brand Agency State copy (site, proposals, outreach, social, deliverables), use the client register. The owner register is only for Greg's personal writing, and does not carry Agency State brand positioning.
 
@@ -113,6 +113,31 @@ Agency State has one voice, Greg's: one practitioner talking to another about re
 ### Client register
 
 The shared core, with the §7 never-say list applied strictly. This is the register for all Agency State client-facing and marketing copy, and the default this platform serves.
+
+- **Relaxed, professional explanation is the default.** A practitioner explaining real work to a peer, clearly enough for a reader without an engineering background.
+- **The reference is the finished site articles.** Match the register of the approved reference passages below.
+- **Vary sentence length within connected paragraphs.** Short sentences need their surrounding context.
+- **Introduce a technical term through the work it does.** Explain technical details far enough for the reader to understand what they establish.
+- **Name the thing.** When "it," "this," or "them" could point at more than one thing, repeat the noun.
+- **Say what the work does.** Avoid stacking "needs to" and "should" into a list of requirements; describe what happens and who does it.
+- **Keep material limits with the claim,** close enough that the reader can't miss them: "none of the checks in this test," not "no check."
+- **An objection is about one passage.** Rejecting a word in one sentence is evidence about that sentence; it does not ban the word everywhere.
+
+**Reference passages.** From Context is not control (agencystate.ai/context-is-not-control.html). Match their register.
+
+*Introducing the subject to a reader without engineering background (the opening):*
+
+> Giving AI your written brand documents can help it write better marketing copy. Those documents become its context: the vocabulary, examples of the voice, product information, and the rules you want it to follow.
+>
+> But a draft it writes can sound right while getting important things wrong. It can name a product you don't sell or promise a policy you don't offer. I've found these errors are different from the ones people make. They fit. They borrow real details, or they sound like what any brand like yours would say. The clues that they're wrong are there, but only someone who knows the facts will see them.
+
+*A result, with what it means and its limits:*
+
+> All three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.
+
+*A close that names the work:*
+
+> The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can't. That's the work a Brand OS does: turning the brand information into a source a check can read, keeping it current, giving it to the AI with every request, running the checks, and routing the remaining decisions to the right person.
 
 ### Owner register
 
@@ -165,7 +190,7 @@ The drafting craft for owner writing (post kinds, structure, the moves, the chec
 - **Consultant-speak.** "our proprietary methodology," "best-in-class," "thought leadership."
 - **Fake proof.** Testimonial-style claims or outcome numbers before the first engagements complete.
 - **Defensive copy answering unraised objections.** "no subscription, no vendor lock," "no IT required." If the buyer didn't ask, don't answer.
-- **Hedge words.** "we believe," "we think," "may," "might." Exception: in founder first person, "I think," "I've found," and "my pick" stake a claim rather than hedge, and are allowed. Corporate "we think" is still forbidden.
+- **Hedge words.** "we believe," "we think," "may," "might." Exception: in founder first person, "I think," "I've found," and "my pick" stake a claim rather than hedge, and are allowed. Corporate "we think" is still forbidden. "May" and "might" are allowed when they describe a specific possibility or an evidence-based limit. Make clear what is uncertain; don't strengthen a claim merely to avoid a hedge word.
 - **"Scale yourself."** Treats the human as an asset to be multiplied.
 - **AI-first, AI-native, AI-powered.** Buzzword overclaim. Describe what the AI actually does in the work.
 - **Generic "AI strategy" as a deliverable.** Too abstract. Name what is being built.
@@ -228,3 +253,4 @@ The drafting craft for owner writing (post kinds, structure, the moves, the chec
 - §2 rewritten to the trio, ownership restored (2026-08-28, v2.19): the delivery section's Brand OS definition changed from "the codified brand, plus the brand agents and operating frameworks built on it" to "the codified brand, plus the automations, enforcement, and connections built on it," with the explanation re-mapped onto the three (automations produce the work; enforcement holds every rule a machine can and routes what needs judgment to a person; connections serve the brand into the team's tools). Closes the "§2 left untouched" item the v2.18 entry boarded. Two corrections against a first-pass rewrite, both at Greg's direction: (1) enforcement is stated as the layered umbrella, not machine-only, per the 2026-08-27 enforcement decision ("a machine holds every rule it can, and a person keeps the calls that need judgment"), with the routing clause lifted from index.html's Partnership line that that decision blessed as consistent, so no new claim enters the source; (2) the ownership clause is preserved, not dropped: current §2 ended "the workflows, integrations, documentation, and processes the team runs and owns," and "the team runs and owns all of it" restores that positioning in one sentence without reintroducing "operating frameworks" as §2's framing. Vocabulary decision recorded alongside (Greg): both "Brand agents" and "Operating frameworks" stay as §6 terms (Operating frameworks is load-bearing, "Recurring work / workload" at §6 is defined in terms of it, and §6's own Brand OS entry maps the trio onto "the agents and operating frameworks"); the trio is the framing everywhere else. §6 unchanged, it already carries this structure. §3's "brand agents, led by the review agent" wedge framing is deliberate (v2.2) and untouched; whether the trio applies there is a separate question. Approval recorded in agency-state-practice website/DECISIONS.md, 2026-08-28.
 - §6 defines "Codified brand" (2026-08-29, v2.20): added a "Codified brand" entry to the §6 vocabulary, immediately before "Brand OS," since the Brand OS definition rests on it (the codified brand is its foundation). The term was load-bearing across §2 and §6 but had no definition of its own, so a reader met "codified brand" with nothing to define it on sight. The entry states what it is (the brand as structured, machine-readable source built from the team's existing material and compiled into the files a model reads and a linter checks against), its provenance discipline (every entry tagged source-or-inferred, every inference and gap decided by a person), the boundary (Agency State codifies a brand, it does not create one, so the brand has to be decided first), and what it is not (a rewritten brand book, or the Brand OS itself). The "automations, enforcement, connections" trio is taken verbatim from the Brand OS entry so the two definitions interlock. Brand OS entry unchanged. Continues the §2/§6 reconciliation of this same codified-brand-versus-Brand-OS distinction recorded at v2.18 and v2.19.
 - Social preview line, signpost rule, §8 wording (2026-10-11, v2.21): §1 adds a "Social preview line" ("On brand, at the speed of AI") for OG/social cards only. §5 adds "Limit signpost sentences." §8 changes "ran a brand overhaul" to "was business owner for a brand redesign" in the proof paragraph and the v2.4 note. Guidelines v4.1 extends the orange mark to social preview cards and adds it as lockup 6.
+- Client register given positive guidance (2026-10-25, v2.22): the register was one line, so a writing tool got rules to avoid but no sustained prose to match. Added seven guidance points and three reference passages from the finished Context is not control; the finished site articles are now the client-register reference. §5 opening changed from "one voice, Greg's" to "Agency State's brand voice": Greg's goal is a brand voice that reads as appropriate and credible and produces usable copy quickly, not one that imitates him; his published writing stays the owner-register reference. §7 hedge-word entry now allows "may" and "might" for a specific possibility or evidence-based limit (the literal rule flagged legitimate uses twice in one article). Source: projects/brand/voice-update-proposal.md v0.3.0 in agency-state-practice (drafted by Claude Code from Codex's v0.1, reviewed by Codex), approved by Greg 2026-10-25.
