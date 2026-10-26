@@ -153,9 +153,9 @@ def get_audience() -> str:
 
 @mcp.tool()
 def get_brand_voice() -> str:
-    """The Agency State voice: the shared core (voice rule, point of view, principles with sounds-like / not-like pairs), the client register with its reference passages, and the owner register.
+    """The Agency State voice: the shared core (voice rule, point of view, principles with sounds-like / not-like pairs), writing for Agency State with its reference passages. One voice covers all Agency State work, the site included.
 
-    Read this before drafting any Agency State copy — it defines how the brand sounds. Agency State work uses the client register.
+    Read this before drafting any Agency State copy — it defines how the brand sounds. Also call get_never_say and get_vocabulary before drafting client copy. Greg's personal writing (Substack, LinkedIn) is not defined here.
     """
     return _platform_section("5. Voice")
 
