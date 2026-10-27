@@ -59,13 +59,13 @@ The assessment establishes whether the brand is ready to codify, what needs deci
 
 ## 3. Positioning
 
-For brand marketing teams building their own AI workflows with tools like Claude Code and Codex, Agency State is Greg Appler's AI Enablement practice. It builds the Brand OS that keeps the team's AI work on brand, drawing on more than twenty years of brand marketing leadership and hands-on building with the same tools.
+For brand marketing teams building their own AI workflows with Claude Code and Codex, Agency State is Greg Appler's AI Enablement practice. It builds the Brand OS that keeps the team's AI work on brand, drawing on more than twenty years of brand marketing leadership and hands-on building with the same tools.
 
 ---
 
 ## 4. Audience
 
-Agency State's audience is brand marketing leaders, and the builders on their teams, at mid-to-large B2B and B2C organizations with intentional brands, in-house or at the agencies that serve them. The sharpest fit is a team building its own AI workflows with tools like Claude Code and Codex. The Brand OS gives those tools structured brand source to work with, checks on their output, and routes to the people who decide the remaining questions. A team that hasn't started with these tools can still fit if it is comfortable with technology, already uses AI, and plans to do more with it.
+Agency State's audience is brand marketing leaders, and the builders on their teams, at mid-to-large B2B and B2C organizations with intentional brands, in-house or at the agencies that serve them. The sharpest fit is a team building its own AI workflows with Claude Code and Codex. The Brand OS gives those tools structured brand source to work with, checks on their output, and routes to the people who decide the remaining questions. A team that hasn't started with these tools can still fit if it is comfortable with technology, already uses AI, and plans to do more with it.
 
 **Stakeholders, not buyers.** VPs and Managing Directors from other teams, IT leaders, or CIOs can champion or refer, but the marketing team directs the work.
 
