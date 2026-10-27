@@ -238,7 +238,7 @@ Site articles name their evidence plainly: a test is called a test, and a demo b
 
 - **Not a marketing agency for hire.** Agency State builds the Brand OS with the team and works with its Brand OS lead as the system grows. It does not run the brand's marketing in the team's place.
 - **Not enterprise consulting.** The work fits a single marketing function with a clear owner, not a multi-thousand-person transformation with dedicated AI teams and complex procurement.
-- **Not a tutorial or course.** The work builds workflows and artifacts with the team. Claude Code is the primary tool; the work also applies across agents like Codex.
+- **Not a tutorial or course.** The work builds workflows and artifacts with the team. The work uses Claude Code and Codex.
 - **Not a single-discipline specialty.** Greg is a generalist with the tools to execute across disciplines. SEO, paid-media, and analytics specialists exist; he is not one of them.
 - **Not a vendor of AI tools or technology.** Agency State's work is assessing the brand, organizing it for codification, and building and improving the team's Brand OS.
 - **Not a branding engagement.** Agency State codifies an established brand. The team and its agencies make the brand decisions, including resolving conflicts and gaps Greg identifies. Positioning development, naming, and identity design are separate work; the assessment identifies when they are needed.
