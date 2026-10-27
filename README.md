@@ -7,7 +7,7 @@ status: working draft
 
 # agency-state-brand-mcp
 
-MCP server that serves the canonical Agency State brand platform (and visual guidelines) to downstream clients — n8n workflows, Claude Code sessions, any MCP client — so they can pull on-brand context on demand.
+MCP server that serves the canonical Agency State brand platform (and visual guidelines) to downstream clients (Claude Code and Codex sessions, any MCP client) so they can pull on-brand context on demand.
 
 Source of truth is the [`agency-state-brand`](https://github.com/gappler/agency-state-brand) repo. This server is an *actor*, kept separate from that canonical repo.
 

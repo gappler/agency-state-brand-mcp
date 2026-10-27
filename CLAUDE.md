@@ -1,10 +1,10 @@
 ---
 title: Claude Code guidance for agency-state-brand-mcp
 description: Working instructions for the Agency State brand MCP server repo
-last_updated: 2026-10-11
+last_updated: 2026-10-26
 ---
 
-This repo is the **brand MCP server** — it serves the canonical Agency State brand (platform + guidelines) to clients (Claude Code, n8n, any MCP client). It is an *actor*: the **source of truth is `agency-state-brand`**, not this repo.
+This repo is the **brand MCP server** — it serves the canonical Agency State brand (platform + guidelines) to clients (Claude Code, Codex, any MCP client). It is an *actor*: the **source of truth is `agency-state-brand`**, not this repo.
 
 ## Don't edit the brand here
 

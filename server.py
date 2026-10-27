@@ -1,13 +1,13 @@
 """Agency State brand MCP server.
 
 Serves the canonical Agency State brand platform (and visual guidelines) to
-downstream agents — n8n workflows, Claude Code sessions, any MCP client — so
-they can pull on-brand context on demand.
+downstream agents (Claude Code and Codex sessions, any MCP client) so they
+can pull on-brand context on demand.
 
 Source of truth is the `agency-state-brand` repo. The server live-reads the
 latest docs from the repo's raw URL (short in-memory cache) and falls back to
 the bundled snapshot in ./content if the fetch fails. Editing + pushing the
-brand docs updates what this server serves within the cache window — no
+brand docs updates what this server serves within the cache window; no
 redeploy needed.
 """
 
@@ -116,7 +116,7 @@ def _full_platform() -> str:
 
 @mcp.tool()
 def get_identity() -> str:
-    """What Agency State is, in one statement, and who runs it.
+    """What Agency State is and who runs it: the Brand OS and its five parts, Greg's role, and the tagline, descriptor, and positioning line.
 
     Use to ground any output in what the practice fundamentally is before
     writing copy or describing the brand.
@@ -126,7 +126,7 @@ def get_identity() -> str:
 
 @mcp.tool()
 def get_competencies() -> str:
-    """What Agency State does: the Brand OS in its five parts (Source, Production, Control, Feedback, Operators), where the work starts, and how the team owns it.
+    """What Agency State does: the Brand OS in its five parts (Source, Production, Control, Feedback, Operators), and how Greg works with a team, from assessment through ongoing work with the Brand OS lead.
 
     Use when describing what the practice does or what building a Brand OS involves.
     """
@@ -135,7 +135,7 @@ def get_competencies() -> str:
 
 @mcp.tool()
 def get_positioning() -> str:
-    """What makes Agency State distinct — the positioning claims.
+    """The positioning statement: who Agency State is for, what it is, and what sets it apart.
 
     Use when differentiating the practice or writing positioning-level copy.
     """
@@ -144,7 +144,7 @@ def get_positioning() -> str:
 
 @mcp.tool()
 def get_audience() -> str:
-    """Who Agency State is for: the buyer, defined by ownership/authority, plus fit criteria.
+    """Who Agency State is for: brand marketing leaders and the builders on their teams, the sharpest fit, and who champions the work versus who buys it.
 
     Use to check audience fit or target copy to the right reader.
     """
@@ -155,7 +155,7 @@ def get_audience() -> str:
 def get_brand_voice() -> str:
     """The Agency State voice: the shared core (voice rule, point of view, principles with sounds-like / not-like pairs), writing for Agency State with its reference passages. One voice covers all Agency State work, the site included.
 
-    Read this before drafting any Agency State copy — it defines how the brand sounds. Also call get_never_say and get_vocabulary before drafting client copy. Greg's personal writing (Substack, LinkedIn) is not defined here.
+    Read this before drafting any Agency State copy; it defines how the brand sounds. Also call get_never_say and get_vocabulary before drafting client copy. Greg's personal writing (Substack, LinkedIn) is not defined here.
     """
     return _platform_section("5. Voice")
 
@@ -171,7 +171,7 @@ def get_vocabulary() -> str:
 
 @mcp.tool()
 def get_never_say() -> str:
-    """Banned phrasings — fear framing, overclaim, SaaS clichés, consultant-speak, and more.
+    """Banned phrasings: fear framing, overclaim, SaaS clichés, consultant-speak, and more.
 
     Check copy against this list before finalizing; these are hard exclusions.
     """
@@ -180,7 +180,7 @@ def get_never_say() -> str:
 
 @mcp.tool()
 def get_proof() -> str:
-    """Proof and credentials — the founder/AIA paragraph, ready to use as a whole asset.
+    """Proof and credentials: Greg's background, the proof posture (describe the method; evidence must have happened), and the built work.
 
     Use when copy needs to establish authority or credentials.
     """
@@ -189,7 +189,7 @@ def get_proof() -> str:
 
 @mcp.tool()
 def get_boundaries() -> str:
-    """What Agency State is not — the sharp exclusion list.
+    """What Agency State is not: the exclusion list.
 
     Use to avoid mis-describing the practice (e.g., as enterprise consulting or a course).
     """
