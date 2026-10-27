@@ -1,9 +1,9 @@
 ---
 title: Agency State Brand Guidelines
-version: 5.1
+version: 5.2
 status: Canonical
 date: 2026-10-25
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 source: Approved by Greg 2026-10-25. Derived from the redesigned homepage (agency-state/index.html) and the shared stylesheet every page links (agency-state/site.css), October 2026. Replaces v4.1 in full; earlier guidance on faces, sizes, color, and accent use no longer applies.
 ---
 
@@ -42,7 +42,7 @@ The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once p
 
 ### Lines
 
-The tagline and the descriptor are set in the brand platform (§1). On the homepage, the descriptor, "AI Enablement for brand marketing teams," sits under Greg's name. The tagline appears with the mark and wordmark on social cards and covers.
+The tagline and the descriptor are set in the brand platform (§1). The tagline appears with the mark and wordmark on social cards and covers; the descriptor goes beside it where a reader may not yet know Agency State.
 
 ### Do not
 
@@ -81,7 +81,7 @@ Three faces, at regular weight unless noted.
 | Face | Role | Main size |
 |---|---|---|
 | **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
-| **Libre Franklin** | Body text, the homepage descriptor, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) |
+| **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) |
 | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
 
 - **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.
